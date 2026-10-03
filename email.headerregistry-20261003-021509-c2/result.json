@@ -1,0 +1,11 @@
+{
+  "folder": "email.headerregistry-20261003-021509-c2",
+  "status": "bug",
+  "target": "email.headerregistry.UnstructuredHeader",
+  "title": "UnstructuredHeader drops encoded-word Base64 padding defects",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.headerregistry-20261003-021509",
+  "id": "c2",
+  "upstream": null
+}
