@@ -1,0 +1,11 @@
+{
+  "folder": "email.utils-20261003-134022-c4",
+  "status": "bug",
+  "target": "email.utils.getaddresses",
+  "title": "email.utils.getaddresses rejects valid domain-literal addresses in strict mode",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.utils-20261003-134022",
+  "id": "c4",
+  "upstream": null
+}
