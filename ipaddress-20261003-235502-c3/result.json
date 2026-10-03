@@ -1,0 +1,11 @@
+{
+  "folder": "ipaddress-20261003-235502-c3",
+  "status": "bug",
+  "target": "ipaddress.IPv6Network.address_exclude",
+  "title": "IPv6Network.address_exclude raises AssertionError for contained scoped IPv6 networks",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "ipaddress-20261003-235502",
+  "id": "c3",
+  "upstream": null
+}
