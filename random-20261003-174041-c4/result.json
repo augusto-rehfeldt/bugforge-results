@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-174041-c4",
+  "status": "bug",
+  "target": "random.Random.betavariate",
+  "title": "random.betavariate produces biased samples for small positive shape parameters",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "random-20261003-174041",
+  "id": "c4",
+  "upstream": null
+}
