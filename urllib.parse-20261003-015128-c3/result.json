@@ -1,0 +1,11 @@
+{
+  "folder": "urllib.parse-20261003-015128-c3",
+  "status": "bug",
+  "target": "urllib.parse.urljoin",
+  "title": "urllib.parse.urljoin incorrectly collapses repeated slashes in relative paths",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "urllib.parse-20261003-015128",
+  "id": "c3",
+  "upstream": null
+}
