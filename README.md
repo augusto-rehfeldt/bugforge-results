@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-63 result(s).
+64 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -42,6 +42,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `html.parser.HTMLParser.parse_starttag` | bug | [HTMLParser raises ValueError for numeric character references with many leading zeros](html.parser-20261003-132957-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `html.unescape` | bug | [html.unescape raises ValueError for decimal character references exceeding the integer conversion digit limit](html-20261003-020338-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `heapq.merge` | bug | [heapq.merge fails for valid iterators whose __next__ has no __self__](heapq-20261003-022813-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `fractions.Fraction.__format__` | bug | [Fraction scientific formatting fails for near-unit values with large numerators and denominators](fractions-20261003-233134-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.utils.parseaddr` | bug | [email.utils.parseaddr(strict=True) accepts consecutive dots in an unquoted local part](email.utils-20261003-194822-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.utils.getaddresses` | bug | [email.utils.getaddresses rejects valid domain-literal addresses in strict mode](email.utils-20261003-134022-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.utils.encode_rfc2231` | doc-bug | [Clarify encode_rfc2231 docstring: values are quoted even without charset or language](email.utils-20261003-021105-c4/) | 3.14.6 | not filed |

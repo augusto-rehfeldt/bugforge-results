@@ -1,0 +1,11 @@
+{
+  "folder": "fractions-20261003-233134-c1",
+  "status": "bug",
+  "target": "fractions.Fraction.__format__",
+  "title": "Fraction scientific formatting fails for near-unit values with large numerators and denominators",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "fractions-20261003-233134",
+  "id": "c1",
+  "upstream": null
+}
