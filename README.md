@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-40 result(s).
+41 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `statistics.NormalDist.inv_cdf` | bug | [NormalDist.inv_cdf returns infinity from intermediate overflow for a finite quantile](statistics-20261003-124541-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.fmean` | bug | [statistics.fmean raises OverflowError for finite inputs with a representable mean](statistics-20261003-124541-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `shlex.pop_source` | bug | [shlex.pop_source() leaks punctuation buffered from the popped source](shlex-20261003-015527-c4/) | 3.14.6 | not filed |
+| 2026-10-03 | `random.Random.binomialvariate` | bug | [random.binomialvariate returns only zero for large n and tiny p with n*p = 1](random-20261003-142339-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `json.dumps` | bug | [json.JSONEncoder.iterencode drops entries from dict subclasses with false truthiness](json-20261003-130022-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `json.dump` | bug | [json.dump silently drops entries from dict subclasses with false truthiness](json-20261003-130022-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv4Network.supernet` | bug | [IPv4Network.supernet skips new_prefix validation for /0 networks](ipaddress-c4/) | 3.14.6 | not filed |

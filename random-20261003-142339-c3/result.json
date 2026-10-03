@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-142339-c3",
+  "status": "bug",
+  "target": "random.Random.binomialvariate",
+  "title": "random.binomialvariate returns only zero for large n and tiny p with n*p = 1",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "random-20261003-142339",
+  "id": "c3",
+  "upstream": null
+}
