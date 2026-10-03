@@ -1,0 +1,11 @@
+{
+  "folder": "csv-20261003-022404-c1",
+  "status": "bug",
+  "target": "csv.DictWriter.writeheader",
+  "title": "csv.DictWriter.writeheader loses field-name representations for equal keys",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "csv-20261003-022404",
+  "id": "c1",
+  "upstream": null
+}
