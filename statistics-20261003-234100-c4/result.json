@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-234100-c4",
+  "status": "bug",
+  "target": "statistics.kde",
+  "title": "statistics.kde sigmoid PDF raises OverflowError for finite tail inputs",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-234100",
+  "id": "c4",
+  "upstream": null
+}
