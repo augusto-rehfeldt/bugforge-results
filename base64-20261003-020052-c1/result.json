@@ -1,0 +1,11 @@
+{
+  "folder": "base64-20261003-020052-c1",
+  "status": "bug",
+  "target": "base64.encode",
+  "title": "base64.encode silently truncates output when the binary stream performs short writes",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "base64-20261003-020052",
+  "id": "c1",
+  "upstream": null
+}
