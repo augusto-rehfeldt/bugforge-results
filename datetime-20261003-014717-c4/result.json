@@ -1,0 +1,11 @@
+{
+  "folder": "datetime-20261003-014717-c4",
+  "status": "bug",
+  "target": "datetime.datetime.fromisoformat",
+  "title": "datetime.fromisoformat loses fractional UTC offsets smaller than one second",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "datetime-20261003-014717",
+  "id": "c4",
+  "upstream": null
+}

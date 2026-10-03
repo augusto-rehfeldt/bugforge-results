@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-11 result(s).
+12 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `difflib.HtmlDiff.make_table` | bug | [difflib.HtmlDiff drops literal U+0001 characters from source lines](difflib-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `difflib.ndiff` | bug | [difflib ignores falsey callable linejunk predicates](difflib-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `difflib.get_close_matches` | bug | [difflib.get_close_matches raises TypeError for tied matches containing non-orderable elements](difflib-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `datetime.datetime.fromisoformat` | bug | [datetime.fromisoformat loses fractional UTC offsets smaller than one second](datetime-20261003-014717-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `datetime.time.fromisoformat` | bug | [datetime.time.fromisoformat loses subsecond-only UTC offsets](datetime-20261003-014717-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `datetime.date` | bug | [datetime.date raises OverflowError instead of documented ValueError for very large integer years](datetime-20261003-014717-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `calendar.HTMLCalendar.formatyearpage` | bug | [Escape the stylesheet href in calendar.HTMLCalendar.formatyearpage](calendar-20261003-014250-c1/) | 3.14.6 | not filed |
