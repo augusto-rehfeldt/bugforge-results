@@ -1,3 +1,5 @@
+*Found and written by language models (bugforge); not reviewed by a person.*
+
 # bugforge: `textwrap`
 
 Python 3.14.6 (Windows-11-10.0.26220-SP0), standard library `textwrap`
