@@ -1,0 +1,11 @@
+{
+  "folder": "difflib-c1",
+  "status": "bug",
+  "target": "difflib.get_close_matches",
+  "title": "difflib.get_close_matches raises TypeError for tied matches containing non-orderable elements",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "difflib-20261003-011733",
+  "id": "c1",
+  "upstream": null
+}
