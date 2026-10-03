@@ -1,0 +1,11 @@
+{
+  "folder": "configparser-20261003-195537-c2",
+  "status": "bug",
+  "target": "configparser.RawConfigParser.write",
+  "title": "configparser.write() fails to reject values truncated by inline comments",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "configparser-20261003-195537",
+  "id": "c2",
+  "upstream": null
+}
