@@ -20,7 +20,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `heapq.merge` | bug | [heapq.merge fails for valid iterators whose __next__ has no __self__](heapq-20261003-022813-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.utils.encode_rfc2231` | doc-bug | [Clarify encode_rfc2231 docstring: values are quoted even without charset or language](email.utils-20261003-021105-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.utils.format_datetime` | bug | [email.utils.format_datetime rejects custom zero-offset tzinfo with usegmt=True](email.utils-20261003-021105-c3/) | 3.14.6 | not filed |
-| 2026-10-03 | `email.utils.formataddr` | bug | [email.utils.parseaddr rejects a valid quoted local part containing '['](email.utils-20261003-021105-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `email.utils.formataddr` | bug | [email.utils.parseaddr rejects a valid quoted local part containing '\['](email.utils-20261003-021105-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.headerregistry.UnstructuredHeader` | bug | [UnstructuredHeader drops encoded-word Base64 padding defects](email.headerregistry-20261003-021509-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to quote usernames with leading dots](email.headerregistry-20261003-021509-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `difflib.HtmlDiff.make_table` | bug | [difflib.HtmlDiff drops literal U+0001 characters from source lines](difflib-c3/) | 3.14.6 | not filed |
