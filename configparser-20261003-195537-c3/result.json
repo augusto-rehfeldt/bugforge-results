@@ -1,0 +1,11 @@
+{
+  "folder": "configparser-20261003-195537-c3",
+  "status": "bug",
+  "target": "configparser.InvalidWriteError",
+  "title": "configparser fails to reject comment-prefixed multiline values that cannot round-trip",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "configparser-20261003-195537",
+  "id": "c3",
+  "upstream": null
+}
