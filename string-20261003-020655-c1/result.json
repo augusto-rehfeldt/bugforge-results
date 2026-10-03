@@ -1,0 +1,11 @@
+{
+  "folder": "string-20261003-020655-c1",
+  "status": "bug",
+  "target": "string.capwords",
+  "title": "string.capwords ignores falsey nonempty str subclasses when joining",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "string-20261003-020655",
+  "id": "c1",
+  "upstream": null
+}
