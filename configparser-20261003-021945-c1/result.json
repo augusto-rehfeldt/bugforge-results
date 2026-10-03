@@ -1,0 +1,11 @@
+{
+  "folder": "configparser-20261003-021945-c1",
+  "status": "bug",
+  "target": "configparser.RawConfigParser.get",
+  "title": "ExtendedInterpolation drops get() vars overrides during recursive interpolation",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "configparser-20261003-021945",
+  "id": "c1",
+  "upstream": null
+}
