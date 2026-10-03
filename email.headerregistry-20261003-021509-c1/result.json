@@ -1,0 +1,11 @@
+{
+  "folder": "email.headerregistry-20261003-021509-c1",
+  "status": "bug",
+  "target": "email.headerregistry.Address",
+  "title": "email.headerregistry.Address fails to quote usernames with leading dots",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.headerregistry-20261003-021509",
+  "id": "c1",
+  "upstream": null
+}
