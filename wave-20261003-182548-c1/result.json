@@ -1,0 +1,11 @@
+{
+  "folder": "wave-20261003-182548-c1",
+  "status": "bug",
+  "target": "wave.open",
+  "title": "wave.open fails on non-seekable input streams that implement tell()",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "wave-20261003-182548",
+  "id": "c1",
+  "upstream": null
+}
