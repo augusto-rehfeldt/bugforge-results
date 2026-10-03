@@ -1,0 +1,11 @@
+{
+  "folder": "textwrap-c1",
+  "status": "doc-bug",
+  "target": "textwrap.TextWrapper.wrap",
+  "title": "Clarify TextWrapper width guarantees when indentation consumes the available width",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "textwrap-20261003-012633",
+  "id": "c1",
+  "upstream": null
+}
