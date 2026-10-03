@@ -1,0 +1,11 @@
+{
+  "folder": "html-20261003-020338-c2",
+  "status": "bug",
+  "target": "html.unescape",
+  "title": "html.unescape raises ValueError for decimal character references exceeding the integer conversion digit limit",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "html-20261003-020338",
+  "id": "c2",
+  "upstream": null
+}
