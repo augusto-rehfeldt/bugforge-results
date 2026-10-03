@@ -1,0 +1,11 @@
+{
+  "folder": "email.utils-20261003-021105-c3",
+  "status": "bug",
+  "target": "email.utils.format_datetime",
+  "title": "email.utils.format_datetime rejects custom zero-offset tzinfo with usegmt=True",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.utils-20261003-021105",
+  "id": "c3",
+  "upstream": null
+}
