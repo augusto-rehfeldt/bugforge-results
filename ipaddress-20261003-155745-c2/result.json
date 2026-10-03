@@ -1,0 +1,11 @@
+{
+  "folder": "ipaddress-20261003-155745-c2",
+  "status": "bug",
+  "target": "ipaddress.IPv6Interface.with_prefixlen",
+  "title": "ipaddress.IPv6Interface.with_prefixlen drops IPv6 scope IDs",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "ipaddress-20261003-155745",
+  "id": "c2",
+  "upstream": null
+}
