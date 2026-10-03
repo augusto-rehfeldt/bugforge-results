@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-61 result(s).
+62 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `random.Random.betavariate` | bug | [random.betavariate produces biased samples for small positive shape parameters](random-20261003-174041-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `random.binomialvariate` | bug | [random.binomialvariate returns deterministic zero for small positive p with n*p=1](random-20261003-142339-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `random.Random.binomialvariate` | bug | [random.binomialvariate returns only zero for large n and tiny p with n*p = 1](random-20261003-142339-c3/) | 3.14.6 | not filed |
+| 2026-10-03 | `plistlib.dump` | bug | [plistlib.dump fails on non-seekable writable streams with FMT_BINARY](plistlib-20261003-211350-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `plistlib.dumps` | bug | [plistlib XML serialization normalizes carriage returns in keys, causing silent data loss](plistlib-20261003-150942-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `json.dumps` | bug | [json.JSONEncoder.iterencode drops entries from dict subclasses with false truthiness](json-20261003-130022-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `json.dump` | bug | [json.dump silently drops entries from dict subclasses with false truthiness](json-20261003-130022-c1/) | 3.14.6 | not filed |
