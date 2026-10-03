@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-44 result(s).
+45 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `struct.pack_into` | bug | [struct.pack_into corrupts an 's' value when source and destination are the same bytearray](struct-20261003-122508-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `string.capwords` | bug | [string.capwords ignores falsey nonempty str subclasses when joining](string-20261003-020655-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.kde` | bug | [statistics.kde logistic CDF overflows for large finite arguments](statistics-c1/) | 3.14.6 | [cpython#158631](https://github.com/python/cpython/issues/158631) (open, 4 comment(s)) |
+| 2026-10-03 | `statistics.quantiles` | bug | [statistics.quantiles produces infinite cut points from finite inputs with representable results](statistics-20261003-154526-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.NormalDist.overlap` | bug | [statistics.NormalDist.overlap returns incorrect coefficient for large finite standard deviations](statistics-20261003-124541-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.NormalDist.inv_cdf` | bug | [NormalDist.inv_cdf returns infinity from intermediate overflow for a finite quantile](statistics-20261003-124541-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.fmean` | bug | [statistics.fmean raises OverflowError for finite inputs with a representable mean](statistics-20261003-124541-c1/) | 3.14.6 | not filed |

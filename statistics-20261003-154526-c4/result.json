@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-154526-c4",
+  "status": "bug",
+  "target": "statistics.quantiles",
+  "title": "statistics.quantiles produces infinite cut points from finite inputs with representable results",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-154526",
+  "id": "c4",
+  "upstream": null
+}
