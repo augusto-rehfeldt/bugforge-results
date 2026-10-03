@@ -1,0 +1,11 @@
+{
+  "folder": "email.utils-20261003-021105-c4",
+  "status": "doc-bug",
+  "target": "email.utils.encode_rfc2231",
+  "title": "Clarify encode_rfc2231 docstring: values are quoted even without charset or language",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.utils-20261003-021105",
+  "id": "c4",
+  "upstream": null
+}
