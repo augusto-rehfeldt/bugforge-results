@@ -1,0 +1,11 @@
+{
+  "folder": "calendar-20261003-014250-c1",
+  "status": "bug",
+  "target": "calendar.HTMLCalendar.formatyearpage",
+  "title": "Escape the stylesheet href in calendar.HTMLCalendar.formatyearpage",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "calendar-20261003-014250",
+  "id": "c1",
+  "upstream": null
+}
