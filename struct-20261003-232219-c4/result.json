@@ -1,0 +1,11 @@
+{
+  "folder": "struct-20261003-232219-c4",
+  "status": "bug",
+  "target": "struct.Struct.iter_unpack",
+  "title": "struct.Struct.iter_unpack crashes when __buffer__ reinitializes the Struct to a zero-sized format",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "struct-20261003-232219",
+  "id": "c4",
+  "upstream": null
+}
