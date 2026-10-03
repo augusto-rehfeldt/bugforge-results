@@ -1,0 +1,11 @@
+{
+  "folder": "struct-20261003-122508-c3",
+  "status": "bug",
+  "target": "struct.pack_into",
+  "title": "struct.pack_into corrupts an 's' value when source and destination are the same bytearray",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "struct-20261003-122508",
+  "id": "c3",
+  "upstream": null
+}
