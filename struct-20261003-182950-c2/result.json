@@ -1,0 +1,11 @@
+{
+  "folder": "struct-20261003-182950-c2",
+  "status": "bug",
+  "target": "struct.Struct.pack_into",
+  "title": "struct.Struct.pack_into with '0p' modifies a byte outside its zero-sized representation",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "struct-20261003-182950",
+  "id": "c2",
+  "upstream": null
+}
