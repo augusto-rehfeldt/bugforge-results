@@ -1,0 +1,11 @@
+{
+  "folder": "email.headerregistry-20261003-195236-c1",
+  "status": "bug",
+  "target": "email.headerregistry.ContentDispositionHeader",
+  "title": "email.headerregistry fails to combine RFC 2231 continuations with mixed-case parameter names",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "email.headerregistry-20261003-195236",
+  "id": "c1",
+  "upstream": null
+}
