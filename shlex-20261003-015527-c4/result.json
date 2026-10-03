@@ -1,0 +1,11 @@
+{
+  "folder": "shlex-20261003-015527-c4",
+  "status": "bug",
+  "target": "shlex.pop_source",
+  "title": "shlex.pop_source() leaks punctuation buffered from the popped source",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "shlex-20261003-015527",
+  "id": "c4",
+  "upstream": null
+}
