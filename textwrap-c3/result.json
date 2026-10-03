@@ -1,0 +1,11 @@
+{
+  "folder": "textwrap-c3",
+  "status": "doc-bug",
+  "target": "textwrap.TextWrapper.fill",
+  "title": "Clarify TextWrapper width guarantees when indentation leaves no room for text",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "textwrap-20261003-012633",
+  "id": "c3",
+  "upstream": null
+}
