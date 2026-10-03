@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-52 result(s).
+53 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `struct.pack_into` | bug | [struct.pack_into corrupts an 's' value when source and destination are the same bytearray](struct-20261003-122508-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `string.capwords` | bug | [string.capwords ignores falsey nonempty str subclasses when joining](string-20261003-020655-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.kde` | bug | [statistics.kde logistic CDF overflows for large finite arguments](statistics-c1/) | 3.14.6 | [cpython#158631](https://github.com/python/cpython/issues/158631) (open, 4 comment(s)) |
+| 2026-10-03 | `statistics.covariance` | bug | [statistics.covariance overflows when the final covariance is representable](statistics-20261003-185112-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.correlation` | bug | [statistics.correlation misclassifies distinct large integers as constant input](statistics-20261003-185112-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.fmean` | bug | [statistics.fmean returns zero for a singleton with a tiny positive weight](statistics-20261003-185112-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.quantiles` | bug | [statistics.quantiles produces infinite cut points from finite inputs with representable results](statistics-20261003-154526-c4/) | 3.14.6 | not filed |
