@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-124541-c2",
+  "status": "bug",
+  "target": "statistics.NormalDist.inv_cdf",
+  "title": "NormalDist.inv_cdf returns infinity from intermediate overflow for a finite quantile",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-124541",
+  "id": "c2",
+  "upstream": null
+}
