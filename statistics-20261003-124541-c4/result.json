@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-124541-c4",
+  "status": "bug",
+  "target": "statistics.NormalDist.overlap",
+  "title": "statistics.NormalDist.overlap returns incorrect coefficient for large finite standard deviations",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-124541",
+  "id": "c4",
+  "upstream": null
+}
