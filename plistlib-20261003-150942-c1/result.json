@@ -1,0 +1,11 @@
+{
+  "folder": "plistlib-20261003-150942-c1",
+  "status": "bug",
+  "target": "plistlib.dumps",
+  "title": "plistlib XML serialization normalizes carriage returns in keys, causing silent data loss",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "plistlib-20261003-150942",
+  "id": "c1",
+  "upstream": null
+}
