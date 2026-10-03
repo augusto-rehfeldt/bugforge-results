@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-185112-c3",
+  "status": "bug",
+  "target": "statistics.correlation",
+  "title": "statistics.correlation misclassifies distinct large integers as constant input",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-185112",
+  "id": "c3",
+  "upstream": null
+}
