@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-27 result(s).
+28 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -32,4 +32,5 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `configparser.RawConfigParser.write` | bug | [configparser.write fails to reject comment-prefixed option names](configparser-20261003-021945-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `configparser.RawConfigParser.get` | bug | [ExtendedInterpolation drops get() vars overrides during recursive interpolation](configparser-20261003-021945-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `calendar.HTMLCalendar.formatyearpage` | bug | [Escape the stylesheet href in calendar.HTMLCalendar.formatyearpage](calendar-20261003-014250-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `base64.a85encode` | doc-bug | [Document minimum wrapcol of 2 for a85encode with adobe=True](base64-20261003-020052-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `base64.encode` | bug | [base64.encode silently truncates output when the binary stream performs short writes](base64-20261003-020052-c1/) | 3.14.6 | not filed |

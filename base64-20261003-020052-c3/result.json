@@ -1,0 +1,11 @@
+{
+  "folder": "base64-20261003-020052-c3",
+  "status": "doc-bug",
+  "target": "base64.a85encode",
+  "title": "Document minimum wrapcol of 2 for a85encode with adobe=True",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "base64-20261003-020052",
+  "id": "c3",
+  "upstream": null
+}
