@@ -1,0 +1,11 @@
+{
+  "folder": "configparser-20261003-021945-c2",
+  "status": "bug",
+  "target": "configparser.RawConfigParser.write",
+  "title": "configparser.write fails to reject comment-prefixed option names",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "configparser-20261003-021945",
+  "id": "c2",
+  "upstream": null
+}
