@@ -1,0 +1,11 @@
+{
+  "folder": "csv-20261003-022404-c3",
+  "status": "bug",
+  "target": "csv.DictReader",
+  "title": "csv.DictReader.line_num is stale after skipping trailing blank lines",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "csv-20261003-022404",
+  "id": "c3",
+  "upstream": null
+}
