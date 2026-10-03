@@ -1,0 +1,11 @@
+{
+  "folder": "csv-20261003-135109-c1",
+  "status": "bug",
+  "target": "csv.Sniffer.has_header",
+  "title": "csv.Sniffer.has_header raises csv.Error for valid CR-terminated CSV",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "csv-20261003-135109",
+  "id": "c1",
+  "upstream": null
+}
