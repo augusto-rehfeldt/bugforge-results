@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-c1",
+  "status": "bug",
+  "target": "statistics.kde",
+  "title": "statistics.kde logistic CDF overflows for large finite arguments",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "statistics-20261003-010644",
+  "id": "c1",
+  "upstream": null
+}
