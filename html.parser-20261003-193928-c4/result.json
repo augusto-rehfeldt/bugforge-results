@@ -1,0 +1,11 @@
+{
+  "folder": "html.parser-20261003-193928-c4",
+  "status": "bug",
+  "target": "html.parser.HTMLParser.goahead",
+  "title": "HTMLParser raises ValueError for oversized decimal character references",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "html.parser-20261003-193928",
+  "id": "c4",
+  "upstream": null
+}

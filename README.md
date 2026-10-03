@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-54 result(s).
+55 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `ipaddress.IPv6Network.is_global` | bug | [ipaddress: IPv6Network.is_global violates documented endpoint classification rule](ipaddress-20261003-190337-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv6Interface.with_prefixlen` | bug | [ipaddress.IPv6Interface.with_prefixlen drops IPv6 scope IDs](ipaddress-20261003-155745-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv6Address.__add__` | bug | [ipaddress: IPv6Address integer addition discards scope ID](ipaddress-20261003-125643-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `html.parser.HTMLParser.goahead` | bug | [HTMLParser raises ValueError for oversized decimal character references](html.parser-20261003-193928-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `html.parser.HTMLParser.parse_starttag` | bug | [HTMLParser raises ValueError for numeric character references with many leading zeros](html.parser-20261003-132957-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `html.unescape` | bug | [html.unescape raises ValueError for decimal character references exceeding the integer conversion digit limit](html-20261003-020338-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `heapq.merge` | bug | [heapq.merge fails for valid iterators whose __next__ has no __self__](heapq-20261003-022813-c1/) | 3.14.6 | not filed |
