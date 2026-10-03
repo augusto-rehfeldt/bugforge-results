@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-202849-c3",
+  "status": "bug",
+  "target": "random.Random.choices",
+  "title": "random.choices produces strongly biased results for equal subnormal weights",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "random-20261003-202849",
+  "id": "c3",
+  "upstream": null
+}
