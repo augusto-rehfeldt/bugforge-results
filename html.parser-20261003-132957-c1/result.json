@@ -1,0 +1,11 @@
+{
+  "folder": "html.parser-20261003-132957-c1",
+  "status": "bug",
+  "target": "html.parser.HTMLParser.parse_starttag",
+  "title": "HTMLParser raises ValueError for numeric character references with many leading zeros",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "html.parser-20261003-132957",
+  "id": "c1",
+  "upstream": null
+}
