@@ -1,0 +1,11 @@
+{
+  "folder": "wave-20261003-151720-c3",
+  "status": "bug",
+  "target": "wave.Wave_read.readframes",
+  "title": "wave.Wave_read loses frame position when underlying reads split frames",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "wave-20261003-151720",
+  "id": "c3",
+  "upstream": null
+}
