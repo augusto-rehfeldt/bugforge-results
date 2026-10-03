@@ -1,0 +1,11 @@
+{
+  "folder": "json-20261003-130022-c2",
+  "status": "bug",
+  "target": "json.dumps",
+  "title": "json.JSONEncoder.iterencode drops entries from dict subclasses with false truthiness",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "json-20261003-130022",
+  "id": "c2",
+  "upstream": null
+}
