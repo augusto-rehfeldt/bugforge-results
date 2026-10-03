@@ -1,0 +1,11 @@
+{
+  "folder": "ipaddress-20261003-125643-c1",
+  "status": "bug",
+  "target": "ipaddress.IPv6Address.__add__",
+  "title": "ipaddress: IPv6Address integer addition discards scope ID",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "ipaddress-20261003-125643",
+  "id": "c1",
+  "upstream": null
+}
