@@ -1,0 +1,11 @@
+{
+  "folder": "ipaddress-c1",
+  "status": "bug",
+  "target": "ipaddress.IPv6Address.exploded",
+  "title": "IPv6Address.exploded raises AddressValueError for valid scoped addresses",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "ipaddress-20261003-013157",
+  "id": "c1",
+  "upstream": null
+}
