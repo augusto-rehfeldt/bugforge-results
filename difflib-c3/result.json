@@ -1,0 +1,11 @@
+{
+  "folder": "difflib-c3",
+  "status": "bug",
+  "target": "difflib.HtmlDiff.make_table",
+  "title": "difflib.HtmlDiff drops literal U+0001 characters from source lines",
+  "date": "2026-10-03",
+  "python": "3.14.6",
+  "run": "difflib-20261003-011733",
+  "id": "c3",
+  "upstream": null
+}
