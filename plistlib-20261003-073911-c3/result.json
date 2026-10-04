@@ -1,0 +1,11 @@
+{
+  "folder": "plistlib-20261003-073911-c3",
+  "status": "bug",
+  "target": "plistlib.dump",
+  "title": "plistlib binary writer conflates fold-distinct aware datetimes before UTC conversion",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "plistlib-20261003-073911",
+  "id": "c3",
+  "upstream": null
+}
