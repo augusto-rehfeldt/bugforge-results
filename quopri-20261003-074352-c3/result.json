@@ -1,0 +1,11 @@
+{
+  "folder": "quopri-20261003-074352-c3",
+  "status": "bug",
+  "target": "quopri.encodestring",
+  "title": "quopri pure-Python fallback exceeds quoted-printable line length limit at a space boundary",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "quopri-20261003-074352",
+  "id": "c3",
+  "upstream": null
+}
