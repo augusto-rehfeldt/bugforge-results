@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-108 result(s).
+109 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `unicodedata.UCD.normalize` | bug | [unicodedata.ucd_3_2_0.normalize incorrectly reorders marks across Unicode 3.2 unassigned characters](unicodedata-20261003-064954-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `unicodedata.UCD.is_normalized` | bug | [unicodedata.ucd_3_2_0.is_normalized incorrectly rejects NFD with a character unassigned in Unicode 3.2](unicodedata-20261003-064954-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `struct.Struct.iter_unpack` | bug | [Struct reinitialization to a zero-sized format makes an existing iter_unpack iterator nonterminating](struct-20261003-075217-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.harmonic_mean` | bug | [statistics.harmonic_mean returns zero for identical positive subnormal floats](statistics-20261003-081656-c3/) | 3.14.6 | not filed |
