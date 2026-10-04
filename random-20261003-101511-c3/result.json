@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-101511-c3",
+  "status": "bug",
+  "target": "random.Random.gammavariate",
+  "title": "random.Random.gammavariate loops indefinitely for large finite alpha",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "random-20261003-101511",
+  "id": "c3",
+  "upstream": null
+}
