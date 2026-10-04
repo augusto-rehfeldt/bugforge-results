@@ -1,0 +1,11 @@
+{
+  "folder": "isodate-20261004-110733-c4",
+  "status": "bug",
+  "target": "isodate.duration_isoformat",
+  "title": "duration_isoformat emits invalid scientific notation for small Decimal year values",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "isodate-20261004-110733",
+  "id": "c4",
+  "upstream": null
+}
