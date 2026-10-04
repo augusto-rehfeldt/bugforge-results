@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-123 result(s).
+124 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -22,6 +22,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `statistics.correlation` | bug | [statistics.correlation misclassifies tiny nonconstant inputs as constant](statistics-20261003-045701-c3/) | 3.14.6 | [cpython#158752](https://github.com/python/cpython/issues/158752) (closed, 1 comment(s)) |
 | 2026-10-04 | `statistics.linear_regression` | bug | [statistics.linear_regression misclassifies small nonconstant inputs as constant due to underflow](statistics-20261003-045701-c2/) | 3.14.6 | [cpython#158751](https://github.com/python/cpython/issues/158751) (closed, 1 comment(s)) |
 | 2026-10-04 | `statistics.NormalDist.cdf` | bug | [statistics.NormalDist.cdf returns incorrect probability when x - mu overflows](statistics-20261003-045701-c1/) | 3.14.6 | [cpython#158750](https://github.com/python/cpython/issues/158750) (closed, 1 comment(s)) |
+| 2026-10-04 | `sortedcontainers.SortedItemsView` | bug | [SortedItemsView intersection fails for keys ordered by a custom key function](sortedcontainers-20261004-110437-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `shlex.push_source` | bug | [shlex.push_source leaks buffered parent punctuation into pushed source](shlex-20261003-090557-c3/) | 3.14.6 | [cpython#158749](https://github.com/python/cpython/issues/158749) (closed, 1 comment(s)) |
 | 2026-10-04 | `random.Random.gammavariate` | bug | [random.Random.gammavariate loops indefinitely for large finite alpha](random-20261003-101511-c3/) | 3.14.6 | [cpython#158745](https://github.com/python/cpython/issues/158745) (closed, 1 comment(s)) |
 | 2026-10-04 | `random.Random.betavariate` | bug | [random.betavariate hangs for very large finite positive shape parameters](random-20261003-101511-c1/) | 3.14.6 | [cpython#158744](https://github.com/python/cpython/issues/158744) (closed, 1 comment(s)) |

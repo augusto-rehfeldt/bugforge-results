@@ -1,0 +1,11 @@
+{
+  "folder": "sortedcontainers-20261004-110437-c3",
+  "status": "bug",
+  "target": "sortedcontainers.SortedItemsView",
+  "title": "SortedItemsView intersection fails for keys ordered by a custom key function",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "sortedcontainers-20261004-110437",
+  "id": "c3",
+  "upstream": null
+}
