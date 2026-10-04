@@ -1,0 +1,11 @@
+{
+  "folder": "operator-20261003-044103-c1",
+  "status": "bug",
+  "target": "operator.iconcat",
+  "title": "operator.iconcat ignores list subclass __iadd__ override",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "operator-20261003-044103",
+  "id": "c1",
+  "upstream": null
+}
