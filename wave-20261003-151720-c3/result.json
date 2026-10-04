@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "wave-20261003-151720",
   "id": "c3",
-  "upstream": null
+  "upstream": "[cpython#158771](https://github.com/python/cpython/issues/158771)"
 }
