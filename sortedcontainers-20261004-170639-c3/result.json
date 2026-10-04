@@ -1,0 +1,11 @@
+{
+  "folder": "sortedcontainers-20261004-170639-c3",
+  "status": "bug",
+  "target": "sortedcontainers.SortedSet.pop",
+  "title": "SortedSet.pop leaves set and list inconsistent when hashing raises",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "sortedcontainers-20261004-170639",
+  "id": "c3",
+  "upstream": null
+}
