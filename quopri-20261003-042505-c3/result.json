@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "quopri-20261003-042505",
   "id": "c3",
-  "upstream": "[cpython#158740](https://github.com/python/cpython/issues/158740)"
+  "upstream": "[cpython#158740](https://github.com/python/cpython/issues/158740)",
+  "conversation": {
+    "state": "closed",
+    "comments": 1,
+    "updated": "2026-10-04T01:06:52Z"
+  }
 }

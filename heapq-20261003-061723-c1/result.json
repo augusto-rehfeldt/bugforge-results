@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "heapq-20261003-061723",
   "id": "c1",
-  "upstream": "[cpython#158717](https://github.com/python/cpython/issues/158717)"
+  "upstream": "[cpython#158717](https://github.com/python/cpython/issues/158717)",
+  "conversation": {
+    "state": "open",
+    "comments": 0,
+    "updated": "2026-10-04T01:01:14Z"
+  }
 }

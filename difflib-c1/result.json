@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "difflib-20261003-011733",
   "id": "c1",
-  "upstream": "[cpython#158705](https://github.com/python/cpython/issues/158705)"
+  "upstream": "[cpython#158705](https://github.com/python/cpython/issues/158705)",
+  "conversation": {
+    "state": "open",
+    "comments": 0,
+    "updated": "2026-10-04T01:00:04Z"
+  }
 }

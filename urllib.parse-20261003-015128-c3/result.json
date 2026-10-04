@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "urllib.parse-20261003-015128",
   "id": "c3",
-  "upstream": "[cpython#158767](https://github.com/python/cpython/issues/158767)"
+  "upstream": "[cpython#158767](https://github.com/python/cpython/issues/158767)",
+  "conversation": {
+    "state": "closed",
+    "comments": 1,
+    "updated": "2026-10-04T01:08:39Z"
+  }
 }

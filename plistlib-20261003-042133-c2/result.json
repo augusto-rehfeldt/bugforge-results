@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "plistlib-20261003-042133",
   "id": "c2",
-  "upstream": "[cpython#158734](https://github.com/python/cpython/issues/158734)"
+  "upstream": "[cpython#158734](https://github.com/python/cpython/issues/158734)",
+  "conversation": {
+    "state": "closed",
+    "comments": 1,
+    "updated": "2026-10-04T01:07:16Z"
+  }
 }

@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "html.parser-20261003-193928",
   "id": "c4",
-  "upstream": "[cpython#158722](https://github.com/python/cpython/issues/158722)"
+  "upstream": "[cpython#158722](https://github.com/python/cpython/issues/158722)",
+  "conversation": {
+    "state": "open",
+    "comments": 0,
+    "updated": "2026-10-04T01:01:47Z"
+  }
 }

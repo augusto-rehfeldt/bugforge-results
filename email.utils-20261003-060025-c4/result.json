@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "email.utils-20261003-060025",
   "id": "c4",
-  "upstream": "[cpython#158713](https://github.com/python/cpython/issues/158713)"
+  "upstream": "[cpython#158713](https://github.com/python/cpython/issues/158713)",
+  "conversation": {
+    "state": "open",
+    "comments": 0,
+    "updated": "2026-10-04T01:00:49Z"
+  }
 }

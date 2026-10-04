@@ -7,5 +7,10 @@
   "python": "3.14.6",
   "run": "datetime-20261003-014717",
   "id": "c4",
-  "upstream": "[cpython#158703](https://github.com/python/cpython/issues/158703)"
+  "upstream": "[cpython#158703](https://github.com/python/cpython/issues/158703)",
+  "conversation": {
+    "state": "open",
+    "comments": 0,
+    "updated": "2026-10-04T00:59:52Z"
+  }
 }
