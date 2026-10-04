@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "pprint-20261003-073352",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158738](https://github.com/python/cpython/issues/158738)"
 }
