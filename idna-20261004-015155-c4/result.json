@@ -1,0 +1,11 @@
+{
+  "folder": "idna-20261004-015155-c4",
+  "status": "bug",
+  "target": "idna.encode",
+  "title": "Enforce domain-wide Bidi rules for ASCII labels in RTL domains",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "idna-20261004-015155",
+  "id": "c4",
+  "upstream": null
+}
