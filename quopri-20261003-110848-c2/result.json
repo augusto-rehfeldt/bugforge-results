@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "quopri-20261003-110848",
   "id": "c2",
-  "upstream": null
+  "upstream": "[cpython#158741](https://github.com/python/cpython/issues/158741)"
 }
