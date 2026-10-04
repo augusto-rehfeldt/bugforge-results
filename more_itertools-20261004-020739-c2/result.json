@@ -1,0 +1,11 @@
+{
+  "folder": "more_itertools-20261004-020739-c2",
+  "status": "bug",
+  "target": "more_itertools.all_unique",
+  "title": "all_unique misses equal elements with mixed hashability",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "more_itertools-20261004-020739",
+  "id": "c2",
+  "upstream": null
+}
