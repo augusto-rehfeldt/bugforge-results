@@ -1,0 +1,11 @@
+{
+  "folder": "sortedcontainers-20261004-120351-c1",
+  "status": "bug",
+  "target": "sortedcontainers.SortedDict.update",
+  "title": "SortedDict.update leaves key index inconsistent when an input iterator raises",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "sortedcontainers-20261004-120351",
+  "id": "c1",
+  "upstream": null
+}
