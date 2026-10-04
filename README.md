@@ -53,7 +53,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `email.headerregistry.MIMEVersionHeader.parse` | bug | [MIME-Version header parsing leaks ValueError for oversized numeric components](email.headerregistry-20261003-060502-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `difflib.HtmlDiff.make_table` | bug | [HtmlDiff.make_table raises RecursionError when wrapping long lines at column 1](difflib-20261003-082046-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `configparser.RawConfigParser.write` | bug | [configparser.write silently loses surrounding value whitespace instead of raising InvalidWriteError](configparser-20261003-093513-c2/) | 3.14.6 | not filed |
-| 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | [cpython#158697](https://github.com/python/cpython/issues/158697) |
+| 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | [cpython#158697](https://github.com/python/cpython/issues/158697) (open, 0 comment(s)) |
 | 2026-10-04 | `base64.encode` | bug | [base64.encode silently treats non-blocking read returning None as EOF](base64-20261004-002157-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.open` | bug | [wave.open fails on non-seekable input streams that implement tell()](wave-20261003-182548-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.Wave_read.readframes` | bug | [wave.Wave_read loses frame position when underlying reads split frames](wave-20261003-151720-c3/) | 3.14.6 | not filed |
@@ -61,7 +61,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `urllib.parse.urlsplit` | bug | [urllib.parse.urlsplit rejects documented bytearray inputs as unhashable](urllib.parse-20261003-015128-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `textwrap.TextWrapper.fill` | doc-bug | [Clarify TextWrapper width guarantees when indentation leaves no room for text](textwrap-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `textwrap.TextWrapper.wrap` | doc-bug | [Clarify TextWrapper width guarantees when indentation consumes the available width](textwrap-c1/) | 3.14.6 | not filed |
-| 2026-10-03 | `struct.Struct.iter_unpack` | bug | [struct.Struct.iter_unpack crashes when __buffer__ reinitializes the Struct to a zero-sized format](struct-20261003-232219-c4/) | 3.14.6 | [cpython#158695](https://github.com/python/cpython/issues/158695) |
+| 2026-10-03 | `struct.Struct.iter_unpack` | bug | [struct.Struct.iter_unpack crashes when __buffer__ reinitializes the Struct to a zero-sized format](struct-20261003-232219-c4/) | 3.14.6 | [cpython#158695](https://github.com/python/cpython/issues/158695) (open, 0 comment(s)) |
 | 2026-10-03 | `struct.Struct.pack_into` | bug | [struct.Struct.pack_into with '0p' modifies a byte outside its zero-sized representation](struct-20261003-182950-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `struct.pack_into` | bug | [struct.pack_into corrupts an 's' value when source and destination are the same bytearray](struct-20261003-122508-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `string.capwords` | bug | [string.capwords ignores falsey nonempty str subclasses when joining](string-20261003-020655-c1/) | 3.14.6 | not filed |
@@ -121,4 +121,4 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `configparser.RawConfigParser.get` | bug | [ExtendedInterpolation drops get() vars overrides during recursive interpolation](configparser-20261003-021945-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `calendar.HTMLCalendar.formatyearpage` | bug | [Escape the stylesheet href in calendar.HTMLCalendar.formatyearpage](calendar-20261003-014250-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `base64.a85encode` | doc-bug | [Document minimum wrapcol of 2 for a85encode with adobe=True](base64-20261003-020052-c3/) | 3.14.6 | not filed |
-| 2026-10-03 | `base64.encode` | bug | [base64.encode silently truncates output when the binary stream performs short writes](base64-20261003-020052-c1/) | 3.14.6 | [cpython#158696](https://github.com/python/cpython/issues/158696) |
+| 2026-10-03 | `base64.encode` | bug | [base64.encode silently truncates output when the binary stream performs short writes](base64-20261003-020052-c1/) | 3.14.6 | [cpython#158696](https://github.com/python/cpython/issues/158696) (open, 0 comment(s)) |
