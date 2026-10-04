@@ -1,0 +1,11 @@
+{
+  "folder": "wave-20261003-042850-c2",
+  "status": "bug",
+  "target": "wave.Wave_write.setnchannels",
+  "title": "wave: Reject parameter changes after empty frame writes",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "wave-20261003-042850",
+  "id": "c2",
+  "upstream": null
+}
