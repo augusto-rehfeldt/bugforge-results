@@ -57,7 +57,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `base64.encode` | bug | [base64.encode silently treats non-blocking read returning None as EOF](base64-20261004-002157-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.open` | bug | [wave.open fails on non-seekable input streams that implement tell()](wave-20261003-182548-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.Wave_read.readframes` | bug | [wave.Wave_read loses frame position when underlying reads split frames](wave-20261003-151720-c3/) | 3.14.6 | not filed |
-| 2026-10-03 | `urllib.parse.urljoin` | bug | [urllib.parse.urljoin incorrectly collapses repeated slashes in relative paths](urllib.parse-20261003-015128-c3/) | 3.14.6 | not filed |
+| 2026-10-03 | `urllib.parse.urljoin` | bug | [urllib.parse.urljoin incorrectly collapses repeated slashes in relative paths](urllib.parse-20261003-015128-c3/) | 3.14.6 | [cpython#158767](https://github.com/python/cpython/issues/158767) |
 | 2026-10-03 | `urllib.parse.urlsplit` | bug | [urllib.parse.urlsplit rejects documented bytearray inputs as unhashable](urllib.parse-20261003-015128-c1/) | 3.14.6 | [cpython#158766](https://github.com/python/cpython/issues/158766) |
 | 2026-10-03 | `textwrap.TextWrapper.fill` | doc-bug | [Clarify TextWrapper width guarantees when indentation leaves no room for text](textwrap-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `textwrap.TextWrapper.wrap` | doc-bug | [Clarify TextWrapper width guarantees when indentation consumes the available width](textwrap-c1/) | 3.14.6 | not filed |
