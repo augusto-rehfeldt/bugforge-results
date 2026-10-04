@@ -2,12 +2,13 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-70 result(s).
+71 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | `email.utils.parsedate_tz` | bug | [email.utils.parsedate_tz misinterprets obsolete RFC 2822 three-digit years](email.utils-20261004-003800-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to escape closing brackets in domain literals](email.headerregistry-20261004-004044-c1/) | 3.14.6 | not filed |
+| 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `base64.encode` | bug | [base64.encode silently treats non-blocking read returning None as EOF](base64-20261004-002157-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.open` | bug | [wave.open fails on non-seekable input streams that implement tell()](wave-20261003-182548-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.Wave_read.readframes` | bug | [wave.Wave_read loses frame position when underlying reads split frames](wave-20261003-151720-c3/) | 3.14.6 | not filed |
