@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.rrule-20261004-125949-c1",
+  "status": "bug",
+  "target": "dateutil.rrule.rrule",
+  "title": "YEARLY byeaster produces incorrect dates for negative offsets crossing a year boundary",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.rrule-20261004-125949",
+  "id": "c1",
+  "upstream": null
+}
