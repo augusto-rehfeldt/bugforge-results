@@ -1,0 +1,11 @@
+{
+  "folder": "isodate-20261004-171240-c4",
+  "status": "bug",
+  "target": "isodate.duration_isoformat",
+  "title": "duration_isoformat changes the value of durations with mixed-sign years and months",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "isodate-20261004-171240",
+  "id": "c4",
+  "upstream": null
+}
