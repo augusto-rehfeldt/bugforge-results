@@ -1,0 +1,11 @@
+{
+  "folder": "packaging.specifiers-20261004-150107-c1",
+  "status": "bug",
+  "target": "packaging.specifiers.Specifier.__hash__",
+  "title": "Specifier string equality violates the equal-hash invariant",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "packaging.specifiers-20261004-150107",
+  "id": "c1",
+  "upstream": null
+}
