@@ -33,7 +33,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python encoder splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encode` | bug | [quopri.encode pure-Python fallback splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `pprint.saferepr` | bug | [pprint.saferepr raises RecursionError when sorting self-referential list-subclass dictionary keys](pprint-20261003-073352-c1/) | 3.14.6 | not filed |
-| 2026-10-04 | `plistlib.loads` | bug | [plistlib binary serialization conflates aware datetimes with different fold-dependent UTC offsets](plistlib-20261003-073911-c4/) | 3.14.6 | not filed |
+| 2026-10-04 | `plistlib.loads` | bug | [plistlib binary serialization conflates aware datetimes with different fold-dependent UTC offsets](plistlib-20261003-073911-c4/) | 3.14.6 | [cpython#158736](https://github.com/python/cpython/issues/158736) |
 | 2026-10-04 | `plistlib.dump` | bug | [plistlib binary writer conflates fold-distinct aware datetimes before UTC conversion](plistlib-20261003-073911-c3/) | 3.14.6 | [cpython#158735](https://github.com/python/cpython/issues/158735) |
 | 2026-10-04 | `plistlib.load` | bug | [plistlib binary writer conflates fold-distinct aware datetimes](plistlib-20261003-073911-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `plistlib.load` | bug | [plistlib.load rejects XML dictionary keys when dict_type is collections.UserDict](plistlib-20261003-042133-c2/) | 3.14.6 | [cpython#158734](https://github.com/python/cpython/issues/158734) |
