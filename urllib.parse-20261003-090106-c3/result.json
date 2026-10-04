@@ -1,0 +1,11 @@
+{
+  "folder": "urllib.parse-20261003-090106-c3",
+  "status": "bug",
+  "target": "urllib.parse.urljoin",
+  "title": "urllib.parse.urljoin skips dot-segment removal for network-path references",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "urllib.parse-20261003-090106",
+  "id": "c3",
+  "upstream": null
+}
