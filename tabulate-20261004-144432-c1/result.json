@@ -1,0 +1,11 @@
+{
+  "folder": "tabulate-20261004-144432-c1",
+  "status": "bug",
+  "target": "tabulate.tabulate",
+  "title": "AsciiDoc output raises KeyError when stralign=None",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "tabulate-20261004-144432",
+  "id": "c1",
+  "upstream": null
+}
