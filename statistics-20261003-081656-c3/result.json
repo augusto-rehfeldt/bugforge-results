@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-081656-c3",
+  "status": "bug",
+  "target": "statistics.harmonic_mean",
+  "title": "statistics.harmonic_mean returns zero for identical positive subnormal floats",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "statistics-20261003-081656",
+  "id": "c3",
+  "upstream": null
+}
