@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.rrule-20261004-153026-c4",
+  "status": "bug",
+  "target": "dateutil.rrule.rrulestr",
+  "title": "rrulestr rejects RFC-valid RDATE;VALUE=DATE entries",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.rrule-20261004-153026",
+  "id": "c4",
+  "upstream": null
+}
