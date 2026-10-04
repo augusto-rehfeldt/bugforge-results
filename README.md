@@ -42,7 +42,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `json.loads` | bug | [json.loads ignores explicitly supplied false-valued parse_float callables](json-20261003-051249-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `ipaddress.IPv6Interface.ip` | bug | [ipaddress.IPv6Interface.ip drops the IPv6 scope ID](ipaddress-20261003-050858-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `html.parser.HTMLParser.handle_decl` | bug | [HTMLParser truncates DOCTYPE declarations at '>' inside quoted system identifiers](html.parser-20261003-091556-c3/) | 3.14.6 | not filed |
-| 2026-10-04 | `heapq.nsmallest` | bug | [heapq.nsmallest violates sorted equivalence for ordering-equivalent objects with identity equality](heapq-20261003-061723-c4/) | 3.14.6 | not filed |
+| 2026-10-04 | `heapq.nsmallest` | bug | [heapq.nsmallest violates sorted equivalence for ordering-equivalent objects with identity equality](heapq-20261003-061723-c4/) | 3.14.6 | [cpython#158718](https://github.com/python/cpython/issues/158718) |
 | 2026-10-04 | `heapq.merge` | bug | [heapq.merge silently drops an input stream when key raises StopIteration](heapq-20261003-061723-c1/) | 3.14.6 | [cpython#158717](https://github.com/python/cpython/issues/158717) |
 | 2026-10-04 | `email.utils.parsedate_tz` | bug | [email.utils.parsedate_tz misinterprets obsolete RFC 2822 three-digit years](email.utils-20261004-003800-c1/) | 3.14.6 | [cpython#158715](https://github.com/python/cpython/issues/158715) |
 | 2026-10-04 | `email.utils.parseaddr` | bug | [email.utils.parseaddr(strict=True) accepts angle address without closing '>'](email.utils-20261003-092603-c3/) | 3.14.6 | [cpython#158714](https://github.com/python/cpython/issues/158714) |
