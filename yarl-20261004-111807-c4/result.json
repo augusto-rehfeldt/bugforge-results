@@ -1,0 +1,11 @@
+{
+  "folder": "yarl-20261004-111807-c4",
+  "status": "bug",
+  "target": "yarl.URL.without_query_params",
+  "title": "without_query_params corrupts non-UTF-8 bytes in surviving query values",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "yarl-20261004-111807",
+  "id": "c4",
+  "upstream": null
+}
