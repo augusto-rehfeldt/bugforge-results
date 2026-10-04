@@ -78,7 +78,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `shlex.pop_source` | bug | [shlex.pop_source() leaks punctuation buffered from the popped source](shlex-20261003-015527-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `random.Random.choices` | bug | [random.choices produces strongly biased results for equal subnormal weights](random-20261003-202849-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `random.Random.betavariate` | bug | [random.betavariate produces biased samples for small positive shape parameters](random-20261003-174041-c4/) | 3.14.6 | not filed |
-| 2026-10-03 | `random.binomialvariate` | bug | [random.binomialvariate returns deterministic zero for small positive p with n*p=1](random-20261003-142339-c4/) | 3.14.6 | not filed |
+| 2026-10-03 | `random.binomialvariate` | bug | [random.binomialvariate returns deterministic zero for small positive p with n*p=1](random-20261003-142339-c4/) | 3.14.6 | [cpython#158747](https://github.com/python/cpython/issues/158747) |
 | 2026-10-03 | `random.Random.binomialvariate` | bug | [random.binomialvariate returns only zero for large n and tiny p with n*p = 1](random-20261003-142339-c3/) | 3.14.6 | [cpython#158746](https://github.com/python/cpython/issues/158746) |
 | 2026-10-03 | `plistlib.dump` | bug | [plistlib.dump fails on non-seekable writable streams with FMT_BINARY](plistlib-20261003-211350-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `plistlib.dumps` | bug | [plistlib XML serialization normalizes carriage returns in keys, causing silent data loss](plistlib-20261003-150942-c1/) | 3.14.6 | [cpython#158737](https://github.com/python/cpython/issues/158737) |
