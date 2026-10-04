@@ -111,7 +111,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `datetime.datetime.fromisoformat` | bug | [datetime.fromisoformat loses fractional UTC offsets smaller than one second](datetime-20261003-014717-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `datetime.time.fromisoformat` | bug | [datetime.time.fromisoformat loses subsecond-only UTC offsets](datetime-20261003-014717-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `datetime.date` | bug | [datetime.date raises OverflowError instead of documented ValueError for very large integer years](datetime-20261003-014717-c1/) | 3.14.6 | not filed |
-| 2026-10-03 | `csv.Sniffer.has_header` | bug | [csv.Sniffer.has_header raises csv.Error for valid CR-terminated CSV](csv-20261003-135109-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `csv.Sniffer.has_header` | bug | [csv.Sniffer.has_header raises csv.Error for valid CR-terminated CSV](csv-20261003-135109-c1/) | 3.14.6 | [cpython#158701](https://github.com/python/cpython/issues/158701) |
 | 2026-10-03 | `csv.DictReader` | bug | [csv.DictReader.line_num is stale after skipping trailing blank lines](csv-20261003-022404-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `csv.DictWriter.writeheader` | bug | [csv.DictWriter.writeheader loses field-name representations for equal keys](csv-20261003-022404-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `configparser.InvalidWriteError` | bug | [configparser fails to reject comment-prefixed multiline values that cannot round-trip](configparser-20261003-195537-c3/) | 3.14.6 | [cpython#158700](https://github.com/python/cpython/issues/158700) |
