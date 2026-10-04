@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-97 result(s).
+98 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `random.Random.betavariate` | bug | [random.betavariate hangs for very large finite positive shape parameters](random-20261003-101511-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.triangular` | bug | [random.triangular returns infinity for finite bounds when their difference overflows](random-20261003-034345-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.Random.vonmisesvariate` | bug | [random.vonmisesvariate raises ZeroDivisionError for large finite kappa](random-20261003-034345-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.decode` | bug | [quopri.decode silently truncates output on short writes](quopri-20261003-110848-c2/) | 3.14.6 | not filed |

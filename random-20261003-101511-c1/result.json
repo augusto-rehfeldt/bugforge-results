@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-101511-c1",
+  "status": "bug",
+  "target": "random.Random.betavariate",
+  "title": "random.betavariate hangs for very large finite positive shape parameters",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "random-20261003-101511",
+  "id": "c1",
+  "upstream": null
+}
