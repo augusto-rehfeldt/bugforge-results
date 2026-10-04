@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-045701-c3",
+  "status": "bug",
+  "target": "statistics.correlation",
+  "title": "statistics.correlation misclassifies tiny nonconstant inputs as constant",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "statistics-20261003-045701",
+  "id": "c3",
+  "upstream": null
+}
