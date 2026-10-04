@@ -1,0 +1,11 @@
+{
+  "folder": "wave-20261003-111327-c3",
+  "status": "bug",
+  "target": "wave.Wave_write.writeframesraw",
+  "title": "wave.Wave_write silently loses audio data on short writes",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "wave-20261003-111327",
+  "id": "c3",
+  "upstream": null
+}
