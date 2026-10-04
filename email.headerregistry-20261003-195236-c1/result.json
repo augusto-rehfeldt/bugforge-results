@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "email.headerregistry-20261003-195236",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158709](https://github.com/python/cpython/issues/158709)"
 }
