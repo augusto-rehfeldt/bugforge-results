@@ -1,0 +1,11 @@
+{
+  "folder": "more_itertools-20261004-142224-c2",
+  "status": "bug",
+  "target": "more_itertools.running_median",
+  "title": "running_median overflows for identical large finite floats",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "more_itertools-20261004-142224",
+  "id": "c2",
+  "upstream": null
+}
