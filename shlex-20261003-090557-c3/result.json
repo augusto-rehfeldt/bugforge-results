@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "shlex-20261003-090557",
   "id": "c3",
-  "upstream": null
+  "upstream": "[cpython#158749](https://github.com/python/cpython/issues/158749)"
 }

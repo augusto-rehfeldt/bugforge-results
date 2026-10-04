@@ -22,7 +22,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `statistics.correlation` | bug | [statistics.correlation misclassifies tiny nonconstant inputs as constant](statistics-20261003-045701-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.linear_regression` | bug | [statistics.linear_regression misclassifies small nonconstant inputs as constant due to underflow](statistics-20261003-045701-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.NormalDist.cdf` | bug | [statistics.NormalDist.cdf returns incorrect probability when x - mu overflows](statistics-20261003-045701-c1/) | 3.14.6 | not filed |
-| 2026-10-04 | `shlex.push_source` | bug | [shlex.push_source leaks buffered parent punctuation into pushed source](shlex-20261003-090557-c3/) | 3.14.6 | not filed |
+| 2026-10-04 | `shlex.push_source` | bug | [shlex.push_source leaks buffered parent punctuation into pushed source](shlex-20261003-090557-c3/) | 3.14.6 | [cpython#158749](https://github.com/python/cpython/issues/158749) |
 | 2026-10-04 | `random.Random.gammavariate` | bug | [random.Random.gammavariate loops indefinitely for large finite alpha](random-20261003-101511-c3/) | 3.14.6 | [cpython#158745](https://github.com/python/cpython/issues/158745) |
 | 2026-10-04 | `random.Random.betavariate` | bug | [random.betavariate hangs for very large finite positive shape parameters](random-20261003-101511-c1/) | 3.14.6 | [cpython#158744](https://github.com/python/cpython/issues/158744) |
 | 2026-10-04 | `random.triangular` | bug | [random.triangular returns infinity for finite bounds when their difference overflows](random-20261003-034345-c3/) | 3.14.6 | [cpython#158743](https://github.com/python/cpython/issues/158743) |
