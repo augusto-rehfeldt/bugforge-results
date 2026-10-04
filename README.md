@@ -53,7 +53,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `email.headerregistry.MIMEVersionHeader.parse` | bug | [MIME-Version header parsing leaks ValueError for oversized numeric components](email.headerregistry-20261003-060502-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `difflib.HtmlDiff.make_table` | bug | [HtmlDiff.make_table raises RecursionError when wrapping long lines at column 1](difflib-20261003-082046-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `configparser.RawConfigParser.write` | bug | [configparser.write silently loses surrounding value whitespace instead of raising InvalidWriteError](configparser-20261003-093513-c2/) | 3.14.6 | not filed |
-| 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | not filed |
+| 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | [cpython#158697](https://github.com/python/cpython/issues/158697) |
 | 2026-10-04 | `base64.encode` | bug | [base64.encode silently treats non-blocking read returning None as EOF](base64-20261004-002157-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.open` | bug | [wave.open fails on non-seekable input streams that implement tell()](wave-20261003-182548-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `wave.Wave_read.readframes` | bug | [wave.Wave_read loses frame position when underlying reads split frames](wave-20261003-151720-c3/) | 3.14.6 | not filed |
