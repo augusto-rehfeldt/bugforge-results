@@ -1,0 +1,11 @@
+{
+  "folder": "email.utils-20261003-060025-c4",
+  "status": "bug",
+  "target": "email.utils.getaddresses",
+  "title": "email.utils.getaddresses(strict=True) rejects valid mailboxes with commas in trailing comments",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "email.utils-20261003-060025",
+  "id": "c4",
+  "upstream": null
+}

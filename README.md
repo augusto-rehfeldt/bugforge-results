@@ -2,11 +2,12 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-75 result(s).
+76 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | `email.utils.parsedate_tz` | bug | [email.utils.parsedate_tz misinterprets obsolete RFC 2822 three-digit years](email.utils-20261004-003800-c1/) | 3.14.6 | not filed |
+| 2026-10-04 | `email.utils.getaddresses` | bug | [email.utils.getaddresses(strict=True) rejects valid mailboxes with commas in trailing comments](email.utils-20261003-060025-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.utils.decode_params` | bug | [email.utils.decode_params misinterprets apostrophes in unencoded RFC 2231 initial segments](email.utils-20261003-060025-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to escape closing brackets in domain literals](email.headerregistry-20261004-004044-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.headerregistry.MIMEVersionHeader.parse` | bug | [MIME-Version header parsing leaks ValueError for oversized numeric components](email.headerregistry-20261003-060502-c4/) | 3.14.6 | not filed |
