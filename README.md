@@ -86,7 +86,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `json.dump` | bug | [json.dump silently drops entries from dict subclasses with false truthiness](json-20261003-130022-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv4Network.supernet` | bug | [IPv4Network.supernet skips new_prefix validation for /0 networks](ipaddress-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv6Address.exploded` | bug | [IPv6Address.exploded raises AddressValueError for valid scoped addresses](ipaddress-c1/) | 3.14.6 | not filed |
-| 2026-10-03 | `ipaddress.IPv6Network.address_exclude` | bug | [IPv6Network.address_exclude raises AssertionError for contained scoped IPv6 networks](ipaddress-20261003-235502-c3/) | 3.14.6 | not filed |
+| 2026-10-03 | `ipaddress.IPv6Network.address_exclude` | bug | [IPv6Network.address_exclude raises AssertionError for contained scoped IPv6 networks](ipaddress-20261003-235502-c3/) | 3.14.6 | [cpython#158727](https://github.com/python/cpython/issues/158727) |
 | 2026-10-03 | `ipaddress.IPv6Network.is_global` | bug | [ipaddress: IPv6Network.is_global violates documented endpoint classification rule](ipaddress-20261003-190337-c3/) | 3.14.6 | [cpython#158726](https://github.com/python/cpython/issues/158726) |
 | 2026-10-03 | `ipaddress.IPv6Interface.with_prefixlen` | bug | [ipaddress.IPv6Interface.with_prefixlen drops IPv6 scope IDs](ipaddress-20261003-155745-c2/) | 3.14.6 | [cpython#158725](https://github.com/python/cpython/issues/158725) |
 | 2026-10-03 | `ipaddress.IPv6Address.__add__` | bug | [ipaddress: IPv6Address integer addition discards scope ID](ipaddress-20261003-125643-c1/) | 3.14.6 | [cpython#158724](https://github.com/python/cpython/issues/158724) |
