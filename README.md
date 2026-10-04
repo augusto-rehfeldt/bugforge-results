@@ -104,7 +104,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `email.headerregistry.ContentDispositionHeader` | bug | [email.headerregistry fails to combine RFC 2231 continuations with mixed-case parameter names](email.headerregistry-20261003-195236-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.headerregistry.MIMEVersionHeader` | bug | [MIMEVersionHeader raises ValueError on non-decimal Unicode digits](email.headerregistry-20261003-134457-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `email.headerregistry.UnstructuredHeader` | bug | [UnstructuredHeader drops encoded-word Base64 padding defects](email.headerregistry-20261003-021509-c2/) | 3.14.6 | not filed |
-| 2026-10-03 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to quote usernames with leading dots](email.headerregistry-20261003-021509-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to quote usernames with leading dots](email.headerregistry-20261003-021509-c1/) | 3.14.6 | [cpython#158706](https://github.com/python/cpython/issues/158706) |
 | 2026-10-03 | `difflib.HtmlDiff.make_table` | bug | [difflib.HtmlDiff drops literal U+0001 characters from source lines](difflib-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `difflib.get_close_matches` | bug | [difflib.get_close_matches raises TypeError for tied matches containing non-orderable elements](difflib-c1/) | 3.14.6 | [cpython#158705](https://github.com/python/cpython/issues/158705) |
 | 2026-10-03 | `difflib.ndiff` | bug | [difflib ignores falsey callable junk predicates](difflib-20261003-011733-c2/) | 3.14.6 | not filed |
