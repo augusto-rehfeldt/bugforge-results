@@ -1,0 +1,11 @@
+{
+  "folder": "random-20261003-034345-c3",
+  "status": "bug",
+  "target": "random.triangular",
+  "title": "random.triangular returns infinity for finite bounds when their difference overflows",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "random-20261003-034345",
+  "id": "c3",
+  "upstream": null
+}
