@@ -1,0 +1,11 @@
+{
+  "folder": "idna-20261004-113652-c3",
+  "status": "bug",
+  "target": "idna.decode",
+  "title": "decode accepts Punycode A-labels exceeding the 63-octet limit",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "idna-20261004-113652",
+  "id": "c3",
+  "upstream": null
+}
