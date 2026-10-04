@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-129 result(s).
+130 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `json.loads` | bug | [json.loads ignores explicitly supplied false-valued parse_float callables](json-20261003-051249-c4/) | 3.14.6 | [cpython#158729](https://github.com/python/cpython/issues/158729) (closed, 1 comment(s)) |
 | 2026-10-04 | `isodate.duration_isoformat` | bug | [duration_isoformat emits invalid scientific notation for small Decimal year values](isodate-20261004-110733-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `ipaddress.IPv6Interface.ip` | bug | [ipaddress.IPv6Interface.ip drops the IPv6 scope ID](ipaddress-20261003-050858-c2/) | 3.14.6 | [cpython#158723](https://github.com/python/cpython/issues/158723) (closed, 1 comment(s)) |
+| 2026-10-04 | `idna.check_label` | bug | [check_label rejects valid Unicode 17 Beria Erfe letters with unknown directionality](idna-20261004-113652-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `idna.encode` | bug | [Enforce domain-wide Bidi rules for ASCII labels in RTL domains](idna-20261004-015155-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `html.parser.HTMLParser.handle_decl` | bug | [HTMLParser truncates DOCTYPE declarations at '>' inside quoted system identifiers](html.parser-20261003-091556-c3/) | 3.14.6 | [cpython#158720](https://github.com/python/cpython/issues/158720) (closed, 1 comment(s)) |
 | 2026-10-04 | `heapq.nsmallest` | bug | [heapq.nsmallest violates sorted equivalence for ordering-equivalent objects with identity equality](heapq-20261003-061723-c4/) | 3.14.6 | [cpython#158718](https://github.com/python/cpython/issues/158718) (closed, 1 comment(s)) |

@@ -1,0 +1,11 @@
+{
+  "folder": "idna-20261004-113652-c1",
+  "status": "bug",
+  "target": "idna.check_label",
+  "title": "check_label rejects valid Unicode 17 Beria Erfe letters with unknown directionality",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "idna-20261004-113652",
+  "id": "c1",
+  "upstream": null
+}
