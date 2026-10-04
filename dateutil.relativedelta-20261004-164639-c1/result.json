@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.relativedelta-20261004-164639-c1",
+  "status": "bug",
+  "target": "dateutil.relativedelta.relativedelta.__rsub__",
+  "title": "Subtracting relativedelta fails to negate the leapdays adjustment",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.relativedelta-20261004-164639",
+  "id": "c1",
+  "upstream": null
+}
