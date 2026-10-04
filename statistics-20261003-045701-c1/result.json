@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-045701-c1",
+  "status": "bug",
+  "target": "statistics.NormalDist.cdf",
+  "title": "statistics.NormalDist.cdf returns incorrect probability when x - mu overflows",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "statistics-20261003-045701",
+  "id": "c1",
+  "upstream": null
+}
