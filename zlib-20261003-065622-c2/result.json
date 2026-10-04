@@ -1,0 +1,11 @@
+{
+  "folder": "zlib-20261003-065622-c2",
+  "status": "bug",
+  "target": "zlib.decompressobj",
+  "title": "zlib.decompressobj fails after documented-safe zdict mutation with a partial initial header",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "zlib-20261003-065622",
+  "id": "c2",
+  "upstream": null
+}
