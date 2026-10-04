@@ -1,0 +1,11 @@
+{
+  "folder": "heapq-20261003-061723-c1",
+  "status": "bug",
+  "target": "heapq.merge",
+  "title": "heapq.merge silently drops an input stream when key raises StopIteration",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "heapq-20261003-061723",
+  "id": "c1",
+  "upstream": null
+}
