@@ -1,0 +1,11 @@
+{
+  "folder": "yarl-20261004-133622-c3",
+  "status": "bug",
+  "target": "yarl.URL.with_scheme",
+  "title": "with_scheme accepts a trailing newline in the scheme",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "yarl-20261004-133622",
+  "id": "c3",
+  "upstream": null
+}
