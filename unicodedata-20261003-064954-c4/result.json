@@ -1,0 +1,11 @@
+{
+  "folder": "unicodedata-20261003-064954-c4",
+  "status": "bug",
+  "target": "unicodedata.UCD.numeric",
+  "title": "unicodedata.ucd_3_2_0.numeric returns newer numeric value for U+4EAC",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "unicodedata-20261003-064954",
+  "id": "c4",
+  "upstream": null
+}
