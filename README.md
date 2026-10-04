@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-94 result(s).
+95 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `quopri.decode` | bug | [quopri.decode silently truncates output on short writes](quopri-20261003-110848-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encode` | bug | [quopri.encode silently truncates output on short writes](quopri-20261003-110848-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python fallback exceeds quoted-printable line length limit at a space boundary](quopri-20261003-074352-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python encoder splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c3/) | 3.14.6 | not filed |

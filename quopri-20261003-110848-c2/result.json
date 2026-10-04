@@ -1,0 +1,11 @@
+{
+  "folder": "quopri-20261003-110848-c2",
+  "status": "bug",
+  "target": "quopri.decode",
+  "title": "quopri.decode silently truncates output on short writes",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "quopri-20261003-110848",
+  "id": "c2",
+  "upstream": null
+}
