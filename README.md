@@ -113,7 +113,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `datetime.date` | bug | [datetime.date raises OverflowError instead of documented ValueError for very large integer years](datetime-20261003-014717-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `csv.Sniffer.has_header` | bug | [csv.Sniffer.has_header raises csv.Error for valid CR-terminated CSV](csv-20261003-135109-c1/) | 3.14.6 | [cpython#158701](https://github.com/python/cpython/issues/158701) |
 | 2026-10-03 | `csv.DictReader` | bug | [csv.DictReader.line_num is stale after skipping trailing blank lines](csv-20261003-022404-c3/) | 3.14.6 | not filed |
-| 2026-10-03 | `csv.DictWriter.writeheader` | bug | [csv.DictWriter.writeheader loses field-name representations for equal keys](csv-20261003-022404-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `csv.DictWriter.writeheader` | bug | [csv.DictWriter.writeheader loses field-name representations for equal keys](csv-20261003-022404-c1/) | 3.14.6 | [cpython#158776](https://github.com/python/cpython/issues/158776) |
 | 2026-10-03 | `configparser.InvalidWriteError` | bug | [configparser fails to reject comment-prefixed multiline values that cannot round-trip](configparser-20261003-195537-c3/) | 3.14.6 | [cpython#158700](https://github.com/python/cpython/issues/158700) |
 | 2026-10-03 | `configparser.RawConfigParser.write` | bug | [configparser.write() fails to reject values truncated by inline comments](configparser-20261003-195537-c2/) | 3.14.6 | not filed |
 | 2026-10-03 | `configparser.RawConfigParser.write` | bug | [configparser.write() fails to reject blank lines in values when empty_lines_in_values=False](configparser-20261003-170729-c2/) | 3.14.6 | not filed |
