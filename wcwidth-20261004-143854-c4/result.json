@@ -1,0 +1,11 @@
+{
+  "folder": "wcwidth-20261004-143854-c4",
+  "status": "bug",
+  "target": "wcwidth.wrap",
+  "title": "wrap exceeds requested width when wrapping an OSC 66 text-sizing segment",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "wcwidth-20261004-143854",
+  "id": "c4",
+  "upstream": null
+}
