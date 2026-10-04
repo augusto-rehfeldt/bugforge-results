@@ -45,7 +45,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `heapq.nsmallest` | bug | [heapq.nsmallest violates sorted equivalence for ordering-equivalent objects with identity equality](heapq-20261003-061723-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `heapq.merge` | bug | [heapq.merge silently drops an input stream when key raises StopIteration](heapq-20261003-061723-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.utils.parsedate_tz` | bug | [email.utils.parsedate_tz misinterprets obsolete RFC 2822 three-digit years](email.utils-20261004-003800-c1/) | 3.14.6 | not filed |
-| 2026-10-04 | `email.utils.parseaddr` | bug | [email.utils.parseaddr(strict=True) accepts angle address without closing '>'](email.utils-20261003-092603-c3/) | 3.14.6 | not filed |
+| 2026-10-04 | `email.utils.parseaddr` | bug | [email.utils.parseaddr(strict=True) accepts angle address without closing '>'](email.utils-20261003-092603-c3/) | 3.14.6 | [cpython#158714](https://github.com/python/cpython/issues/158714) |
 | 2026-10-04 | `email.utils.decode_params` | bug | [email.utils.decode_params fails to combine RFC 2231 continuations with mixed-case attribute names](email.utils-20261003-092603-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.utils.getaddresses` | bug | [email.utils.getaddresses(strict=True) rejects valid mailboxes with commas in trailing comments](email.utils-20261003-060025-c4/) | 3.14.6 | [cpython#158713](https://github.com/python/cpython/issues/158713) |
 | 2026-10-04 | `email.utils.decode_params` | bug | [email.utils.decode_params misinterprets apostrophes in unencoded RFC 2231 initial segments](email.utils-20261003-060025-c2/) | 3.14.6 | [cpython#158712](https://github.com/python/cpython/issues/158712) |
