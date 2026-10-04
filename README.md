@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-146 result(s).
+147 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -52,6 +52,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `operator.iconcat` | bug | [operator.iconcat ignores list subclass __iadd__ override](operator-20261003-044103-c1/) | 3.14.6 | [cpython#158733](https://github.com/python/cpython/issues/158733) (closed, 1 comment(s)) |
 | 2026-10-04 | `more_itertools.running_median` | bug | [running_median overflows for identical large finite floats](more_itertools-20261004-142224-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `more_itertools.all_unique` | bug | [all_unique misses equal elements with mixed hashability](more_itertools-20261004-020739-c2/) | 3.14.6 | not filed |
+| 2026-10-04 | `markupsafe.EscapeFormatter.format_field` | bug | [EscapeFormatter escapes safe plain-string results from __html_format__](markupsafe-20261004-153443-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `markupsafe.EscapeFormatter.format_field` | bug | [EscapeFormatter re-escapes plain-str output from __html__](markupsafe-20261004-115508-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `markupsafe.Markup.translate` | bug | [Escape plain-string replacements in Markup.translate](markupsafe-20261004-020358-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `json.JSONEncoder.iterencode` | bug | [json.JSONEncoder.iterencode allows NaN float subclasses with allow_nan=False](json-20261003-083804-c4/) | 3.14.6 | [cpython#158730](https://github.com/python/cpython/issues/158730) (closed, 1 comment(s)) |
