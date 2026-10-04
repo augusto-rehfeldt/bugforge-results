@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "configparser-20261003-021945",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158698](https://github.com/python/cpython/issues/158698)"
 }
