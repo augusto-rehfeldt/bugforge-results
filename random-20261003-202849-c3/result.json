@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "random-20261003-202849",
   "id": "c3",
-  "upstream": null
+  "upstream": "[cpython#158748](https://github.com/python/cpython/issues/158748)"
 }
