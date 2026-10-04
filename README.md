@@ -26,7 +26,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `random.Random.gammavariate` | bug | [random.Random.gammavariate loops indefinitely for large finite alpha](random-20261003-101511-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.Random.betavariate` | bug | [random.betavariate hangs for very large finite positive shape parameters](random-20261003-101511-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.triangular` | bug | [random.triangular returns infinity for finite bounds when their difference overflows](random-20261003-034345-c3/) | 3.14.6 | not filed |
-| 2026-10-04 | `random.Random.vonmisesvariate` | bug | [random.vonmisesvariate raises ZeroDivisionError for large finite kappa](random-20261003-034345-c2/) | 3.14.6 | not filed |
+| 2026-10-04 | `random.Random.vonmisesvariate` | bug | [random.vonmisesvariate raises ZeroDivisionError for large finite kappa](random-20261003-034345-c2/) | 3.14.6 | [cpython#158742](https://github.com/python/cpython/issues/158742) |
 | 2026-10-04 | `quopri.decode` | bug | [quopri.decode silently truncates output on short writes](quopri-20261003-110848-c2/) | 3.14.6 | [cpython#158741](https://github.com/python/cpython/issues/158741) |
 | 2026-10-04 | `quopri.encode` | bug | [quopri.encode silently truncates output on short writes](quopri-20261003-110848-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python fallback exceeds quoted-printable line length limit at a space boundary](quopri-20261003-074352-c3/) | 3.14.6 | not filed |
