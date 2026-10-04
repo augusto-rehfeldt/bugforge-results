@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.rrule-20261004-115143-c2",
+  "status": "bug",
+  "target": "dateutil.rrule.TU",
+  "title": "MONTHLY rules with mixed ordinal and non-ordinal byweekday entries return no occurrences",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.rrule-20261004-115143",
+  "id": "c2",
+  "upstream": null
+}
