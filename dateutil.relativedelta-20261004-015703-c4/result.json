@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.relativedelta-20261004-015703-c4",
+  "status": "bug",
+  "target": "dateutil.relativedelta.TU",
+  "title": "Equal relativedelta objects with default and explicit +1 weekdays have different hashes",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.relativedelta-20261004-015703",
+  "id": "c4",
+  "upstream": null
+}
