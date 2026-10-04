@@ -83,7 +83,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `plistlib.dump` | bug | [plistlib.dump fails on non-seekable writable streams with FMT_BINARY](plistlib-20261003-211350-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `plistlib.dumps` | bug | [plistlib XML serialization normalizes carriage returns in keys, causing silent data loss](plistlib-20261003-150942-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `json.dumps` | bug | [json.JSONEncoder.iterencode drops entries from dict subclasses with false truthiness](json-20261003-130022-c2/) | 3.14.6 | not filed |
-| 2026-10-03 | `json.dump` | bug | [json.dump silently drops entries from dict subclasses with false truthiness](json-20261003-130022-c1/) | 3.14.6 | not filed |
+| 2026-10-03 | `json.dump` | bug | [json.dump silently drops entries from dict subclasses with false truthiness](json-20261003-130022-c1/) | 3.14.6 | [cpython#158731](https://github.com/python/cpython/issues/158731) |
 | 2026-10-03 | `ipaddress.IPv4Network.supernet` | bug | [IPv4Network.supernet skips new_prefix validation for /0 networks](ipaddress-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `ipaddress.IPv6Address.exploded` | bug | [IPv6Address.exploded raises AddressValueError for valid scoped addresses](ipaddress-c1/) | 3.14.6 | [cpython#158728](https://github.com/python/cpython/issues/158728) |
 | 2026-10-03 | `ipaddress.IPv6Network.address_exclude` | bug | [IPv6Network.address_exclude raises AssertionError for contained scoped IPv6 networks](ipaddress-20261003-235502-c3/) | 3.14.6 | [cpython#158727](https://github.com/python/cpython/issues/158727) |
