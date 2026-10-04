@@ -30,7 +30,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `quopri.decode` | bug | [quopri.decode silently truncates output on short writes](quopri-20261003-110848-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encode` | bug | [quopri.encode silently truncates output on short writes](quopri-20261003-110848-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python fallback exceeds quoted-printable line length limit at a space boundary](quopri-20261003-074352-c3/) | 3.14.6 | not filed |
-| 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python encoder splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c3/) | 3.14.6 | not filed |
+| 2026-10-04 | `quopri.encodestring` | bug | [quopri pure-Python encoder splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c3/) | 3.14.6 | [cpython#158740](https://github.com/python/cpython/issues/158740) |
 | 2026-10-04 | `quopri.encode` | bug | [quopri.encode pure-Python fallback splits hexadecimal escapes at line boundaries](quopri-20261003-042505-c1/) | 3.14.6 | [cpython#158739](https://github.com/python/cpython/issues/158739) |
 | 2026-10-04 | `pprint.saferepr` | bug | [pprint.saferepr raises RecursionError when sorting self-referential list-subclass dictionary keys](pprint-20261003-073352-c1/) | 3.14.6 | [cpython#158738](https://github.com/python/cpython/issues/158738) |
 | 2026-10-04 | `plistlib.loads` | bug | [plistlib binary serialization conflates aware datetimes with different fold-dependent UTC offsets](plistlib-20261003-073911-c4/) | 3.14.6 | [cpython#158736](https://github.com/python/cpython/issues/158736) |
