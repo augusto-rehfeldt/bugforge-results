@@ -1,0 +1,11 @@
+{
+  "folder": "quopri-20261003-042505-c1",
+  "status": "bug",
+  "target": "quopri.encode",
+  "title": "quopri.encode pure-Python fallback splits hexadecimal escapes at line boundaries",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "quopri-20261003-042505",
+  "id": "c1",
+  "upstream": null
+}
