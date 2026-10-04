@@ -9,8 +9,8 @@
   "id": "c2",
   "upstream": "[cpython#158780](https://github.com/python/cpython/issues/158780)",
   "conversation": {
-    "state": "open",
-    "comments": 0,
-    "updated": "2026-10-04T01:07:54Z"
+    "state": "closed",
+    "comments": 1,
+    "updated": "2026-10-04T01:10:19Z"
   }
 }
