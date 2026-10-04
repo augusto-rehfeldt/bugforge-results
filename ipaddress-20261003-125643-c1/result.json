@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "ipaddress-20261003-125643",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158724](https://github.com/python/cpython/issues/158724)"
 }
