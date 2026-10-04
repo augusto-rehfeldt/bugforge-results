@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-154 result(s).
+155 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -90,6 +90,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `dateutil.relativedelta.relativedelta.__rsub__` | bug | [Subtracting relativedelta fails to negate the leapdays adjustment](dateutil.relativedelta-20261004-164639-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `dateutil.relativedelta.TU` | bug | [Equal relativedelta objects with default and explicit +1 weekdays have different hashes](dateutil.relativedelta-20261004-015703-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `dateutil.parser.isoparser.parse_isodate` | bug | [parse_isodate accepts week 53 in ISO years with only 52 weeks](dateutil.parser-20261004-114306-c2/) | 3.14.6 | not filed |
+| 2026-10-04 | `configparser.InvalidWriteError` | bug | [configparser.write fails to reject whitespace-prefixed option names](configparser-20261004-173019-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `configparser.RawConfigParser.write` | bug | [configparser.write silently loses surrounding value whitespace instead of raising InvalidWriteError](configparser-20261003-093513-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `cmath.isclose` | bug | [cmath.isclose incorrectly returns True for large finite opposite complex values](cmath-20261003-033712-c2/) | 3.14.6 | [cpython#158697](https://github.com/python/cpython/issues/158697) (closed, 1 comment(s)) |
 | 2026-10-04 | `base64.encode` | bug | [base64.encode silently treats non-blocking read returning None as EOF](base64-20261004-002157-c1/) | 3.14.6 | not filed |
