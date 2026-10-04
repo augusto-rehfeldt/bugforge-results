@@ -1,0 +1,11 @@
+{
+  "folder": "struct-20261003-075217-c4",
+  "status": "bug",
+  "target": "struct.Struct.iter_unpack",
+  "title": "Struct reinitialization to a zero-sized format makes an existing iter_unpack iterator nonterminating",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "struct-20261003-075217",
+  "id": "c4",
+  "upstream": null
+}
