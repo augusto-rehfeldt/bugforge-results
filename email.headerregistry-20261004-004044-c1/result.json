@@ -1,0 +1,11 @@
+{
+  "folder": "email.headerregistry-20261004-004044-c1",
+  "status": "bug",
+  "target": "email.headerregistry.Address",
+  "title": "email.headerregistry.Address fails to escape closing brackets in domain literals",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "email.headerregistry-20261004-004044",
+  "id": "c1",
+  "upstream": null
+}
