@@ -1,0 +1,11 @@
+{
+  "folder": "wcwidth-20261004-171824-c2",
+  "status": "bug",
+  "target": "wcwidth.iter_graphemes",
+  "title": "iter_graphemes incorrectly joins a leading Devanagari virama to a consonant",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "wcwidth-20261004-171824",
+  "id": "c2",
+  "upstream": null
+}

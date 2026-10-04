@@ -2,13 +2,14 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-153 result(s).
+154 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | `zlib.decompressobj` | bug | [zlib.decompressobj fails after documented-safe zdict mutation with a partial initial header](zlib-20261003-065622-c2/) | 3.14.6 | [cpython#158773](https://github.com/python/cpython/issues/158773) (closed, 1 comment(s)) |
 | 2026-10-04 | `yarl.URL.with_scheme` | bug | [with_scheme accepts a trailing newline in the scheme](yarl-20261004-133622-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `yarl.URL.without_query_params` | bug | [without_query_params corrupts non-UTF-8 bytes in surviving query values](yarl-20261004-111807-c4/) | 3.14.6 | not filed |
+| 2026-10-04 | `wcwidth.iter_graphemes` | bug | [iter_graphemes incorrectly joins a leading Devanagari virama to a consonant](wcwidth-20261004-171824-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `wcwidth.wrap` | bug | [wrap exceeds requested width when wrapping an OSC 66 text-sizing segment](wcwidth-20261004-143854-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `wcwidth.grapheme_boundary_before` | bug | [grapheme_boundary_before returns a non-boundary inside a long regional-indicator run](wcwidth-20261004-111135-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `wcwidth.iter_graphemes_reverse` | bug | [iter_graphemes_reverse missegments a 31-regional-indicator run followed by a combining mark](wcwidth-20261004-111135-c3/) | 3.14.6 | not filed |
