@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-136 result(s).
+137 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -65,6 +65,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `email.headerregistry.Address` | bug | [email.headerregistry.Address fails to escape closing brackets in domain literals](email.headerregistry-20261004-004044-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `email.headerregistry.MIMEVersionHeader.parse` | bug | [MIME-Version header parsing leaks ValueError for oversized numeric components](email.headerregistry-20261003-060502-c4/) | 3.14.6 | [cpython#158707](https://github.com/python/cpython/issues/158707) (closed, 1 comment(s)) |
 | 2026-10-04 | `difflib.HtmlDiff.make_table` | bug | [HtmlDiff.make_table raises RecursionError when wrapping long lines at column 1](difflib-20261003-082046-c2/) | 3.14.6 | [cpython#158704](https://github.com/python/cpython/issues/158704) (closed, 1 comment(s)) |
+| 2026-10-04 | `dateutil.rrule.rrule.replace` | bug | [rrule.replace loses ordinal byweekday when changing DAILY frequency to MONTHLY](dateutil.rrule-20261004-125949-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `dateutil.rrule.rrule` | bug | [YEARLY byeaster produces incorrect dates for negative offsets crossing a year boundary](dateutil.rrule-20261004-125949-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `dateutil.rrule.TU` | bug | [MONTHLY rules with mixed ordinal and non-ordinal byweekday entries return no occurrences](dateutil.rrule-20261004-115143-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `dateutil.rrule.rrulestr` | bug | [rrule.__str__ loses UTC DTSTART timezone on rrulestr round-trip](dateutil.rrule-20261004-015950-c4/) | 3.14.6 | not filed |
