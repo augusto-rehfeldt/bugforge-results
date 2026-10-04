@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "calendar-20261003-014250",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158775](https://github.com/python/cpython/issues/158775)"
 }
