@@ -1,0 +1,11 @@
+{
+  "folder": "plistlib-20261003-073911-c4",
+  "status": "bug",
+  "target": "plistlib.loads",
+  "title": "plistlib binary serialization conflates aware datetimes with different fold-dependent UTC offsets",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "plistlib-20261003-073911",
+  "id": "c4",
+  "upstream": null
+}
