@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-99 result(s).
+100 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `shlex.push_source` | bug | [shlex.push_source leaks buffered parent punctuation into pushed source](shlex-20261003-090557-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.Random.gammavariate` | bug | [random.Random.gammavariate loops indefinitely for large finite alpha](random-20261003-101511-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.Random.betavariate` | bug | [random.betavariate hangs for very large finite positive shape parameters](random-20261003-101511-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `random.triangular` | bug | [random.triangular returns infinity for finite bounds when their difference overflows](random-20261003-034345-c3/) | 3.14.6 | not filed |

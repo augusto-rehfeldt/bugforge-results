@@ -1,0 +1,11 @@
+{
+  "folder": "shlex-20261003-090557-c3",
+  "status": "bug",
+  "target": "shlex.push_source",
+  "title": "shlex.push_source leaks buffered parent punctuation into pushed source",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "shlex-20261003-090557",
+  "id": "c3",
+  "upstream": null
+}
