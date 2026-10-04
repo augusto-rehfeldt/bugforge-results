@@ -1,0 +1,11 @@
+{
+  "folder": "difflib-20261003-082046-c2",
+  "status": "bug",
+  "target": "difflib.HtmlDiff.make_table",
+  "title": "HtmlDiff.make_table raises RecursionError when wrapping long lines at column 1",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "difflib-20261003-082046",
+  "id": "c2",
+  "upstream": null
+}
