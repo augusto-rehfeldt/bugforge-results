@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.rrule-20261004-015950-c2",
+  "status": "bug",
+  "target": "dateutil.rrule.rrule.replace",
+  "title": "rrule.replace(interval=...) loses byhour values excluded by the original interval",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.rrule-20261004-015950",
+  "id": "c2",
+  "upstream": null
+}
