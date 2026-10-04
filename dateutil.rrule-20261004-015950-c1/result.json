@@ -1,0 +1,11 @@
+{
+  "folder": "dateutil.rrule-20261004-015950-c1",
+  "status": "bug",
+  "target": "dateutil.rrule.rrule.__str__",
+  "title": "rrule.__str__ round-trip loses timezone-aware DTSTART",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "dateutil.rrule-20261004-015950",
+  "id": "c1",
+  "upstream": null
+}
