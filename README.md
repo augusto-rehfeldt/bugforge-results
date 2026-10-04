@@ -68,7 +68,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `statistics.kde` | bug | [statistics.kde logistic CDF overflows for large finite arguments](statistics-c1/) | 3.14.6 | [cpython#158631](https://github.com/python/cpython/issues/158631) (open, 4 comment(s)) |
 | 2026-10-03 | `statistics.kde` | bug | [statistics.kde sigmoid PDF raises OverflowError for finite tail inputs](statistics-20261003-234100-c4/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.harmonic_mean` | bug | [statistics.harmonic_mean raises for positive finite inputs when weighted reciprocals underflow](statistics-20261003-234100-c3/) | 3.14.6 | not filed |
-| 2026-10-03 | `statistics.covariance` | bug | [statistics.covariance overflows when the final covariance is representable](statistics-20261003-185112-c4/) | 3.14.6 | not filed |
+| 2026-10-03 | `statistics.covariance` | bug | [statistics.covariance overflows when the final covariance is representable](statistics-20261003-185112-c4/) | 3.14.6 | [cpython#158760](https://github.com/python/cpython/issues/158760) |
 | 2026-10-03 | `statistics.correlation` | bug | [statistics.correlation misclassifies distinct large integers as constant input](statistics-20261003-185112-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.fmean` | bug | [statistics.fmean returns zero for a singleton with a tiny positive weight](statistics-20261003-185112-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.quantiles` | bug | [statistics.quantiles produces infinite cut points from finite inputs with representable results](statistics-20261003-154526-c4/) | 3.14.6 | [cpython#158759](https://github.com/python/cpython/issues/158759) |
