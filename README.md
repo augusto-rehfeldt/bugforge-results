@@ -2,11 +2,12 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-125 result(s).
+126 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-04 | `zlib.decompressobj` | bug | [zlib.decompressobj fails after documented-safe zdict mutation with a partial initial header](zlib-20261003-065622-c2/) | 3.14.6 | [cpython#158773](https://github.com/python/cpython/issues/158773) (closed, 1 comment(s)) |
+| 2026-10-04 | `wcwidth.iter_graphemes` | bug | [Forward and reverse grapheme iterators disagree for regional indicators followed by ZWJ](wcwidth-20261004-111135-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `wave.Wave_write.writeframesraw` | bug | [wave.Wave_write silently loses audio data on short writes](wave-20261003-111327-c3/) | 3.14.6 | [cpython#158770](https://github.com/python/cpython/issues/158770) (closed, 1 comment(s)) |
 | 2026-10-04 | `wave.Wave_write.tell` | bug | [wave: handle short payload writes before advancing Wave_write frame position](wave-20261003-111327-c2/) | 3.14.6 | [cpython#158769](https://github.com/python/cpython/issues/158769) (closed, 1 comment(s)) |
 | 2026-10-04 | `wave.Wave_write.setnchannels` | bug | [wave: Reject parameter changes after empty frame writes](wave-20261003-042850-c2/) | 3.14.6 | [cpython#158768](https://github.com/python/cpython/issues/158768) (closed, 1 comment(s)) |
