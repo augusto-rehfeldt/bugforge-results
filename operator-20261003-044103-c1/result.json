@@ -7,5 +7,5 @@
   "python": "3.14.6",
   "run": "operator-20261003-044103",
   "id": "c1",
-  "upstream": null
+  "upstream": "[cpython#158733](https://github.com/python/cpython/issues/158733)"
 }

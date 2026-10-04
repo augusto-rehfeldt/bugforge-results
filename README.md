@@ -37,7 +37,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `plistlib.dump` | bug | [plistlib binary writer conflates fold-distinct aware datetimes before UTC conversion](plistlib-20261003-073911-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `plistlib.load` | bug | [plistlib binary writer conflates fold-distinct aware datetimes](plistlib-20261003-073911-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `plistlib.load` | bug | [plistlib.load rejects XML dictionary keys when dict_type is collections.UserDict](plistlib-20261003-042133-c2/) | 3.14.6 | not filed |
-| 2026-10-04 | `operator.iconcat` | bug | [operator.iconcat ignores list subclass __iadd__ override](operator-20261003-044103-c1/) | 3.14.6 | not filed |
+| 2026-10-04 | `operator.iconcat` | bug | [operator.iconcat ignores list subclass __iadd__ override](operator-20261003-044103-c1/) | 3.14.6 | [cpython#158733](https://github.com/python/cpython/issues/158733) |
 | 2026-10-04 | `json.JSONEncoder.iterencode` | bug | [json.JSONEncoder.iterencode allows NaN float subclasses with allow_nan=False](json-20261003-083804-c4/) | 3.14.6 | [cpython#158730](https://github.com/python/cpython/issues/158730) |
 | 2026-10-04 | `json.loads` | bug | [json.loads ignores explicitly supplied false-valued parse_float callables](json-20261003-051249-c4/) | 3.14.6 | [cpython#158729](https://github.com/python/cpython/issues/158729) |
 | 2026-10-04 | `ipaddress.IPv6Interface.ip` | bug | [ipaddress.IPv6Interface.ip drops the IPv6 scope ID](ipaddress-20261003-050858-c2/) | 3.14.6 | [cpython#158723](https://github.com/python/cpython/issues/158723) |
