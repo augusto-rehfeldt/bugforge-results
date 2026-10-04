@@ -1,0 +1,11 @@
+{
+  "folder": "configparser-20261003-093513-c2",
+  "status": "bug",
+  "target": "configparser.RawConfigParser.write",
+  "title": "configparser.write silently loses surrounding value whitespace instead of raising InvalidWriteError",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "configparser-20261003-093513",
+  "id": "c2",
+  "upstream": null
+}
