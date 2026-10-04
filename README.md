@@ -19,7 +19,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `statistics.harmonic_mean` | bug | [statistics.harmonic_mean returns zero for identical positive subnormal floats](statistics-20261003-081656-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.pstdev` | bug | [statistics.pstdev overflows for large finite values when given the correct mean](statistics-20261003-081656-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.median` | bug | [statistics.median overflows for large finite middle values](statistics-20261003-045701-c4/) | 3.14.6 | not filed |
-| 2026-10-04 | `statistics.correlation` | bug | [statistics.correlation misclassifies tiny nonconstant inputs as constant](statistics-20261003-045701-c3/) | 3.14.6 | not filed |
+| 2026-10-04 | `statistics.correlation` | bug | [statistics.correlation misclassifies tiny nonconstant inputs as constant](statistics-20261003-045701-c3/) | 3.14.6 | [cpython#158752](https://github.com/python/cpython/issues/158752) |
 | 2026-10-04 | `statistics.linear_regression` | bug | [statistics.linear_regression misclassifies small nonconstant inputs as constant due to underflow](statistics-20261003-045701-c2/) | 3.14.6 | [cpython#158751](https://github.com/python/cpython/issues/158751) |
 | 2026-10-04 | `statistics.NormalDist.cdf` | bug | [statistics.NormalDist.cdf returns incorrect probability when x - mu overflows](statistics-20261003-045701-c1/) | 3.14.6 | [cpython#158750](https://github.com/python/cpython/issues/158750) |
 | 2026-10-04 | `shlex.push_source` | bug | [shlex.push_source leaks buffered parent punctuation into pushed source](shlex-20261003-090557-c3/) | 3.14.6 | [cpython#158749](https://github.com/python/cpython/issues/158749) |
