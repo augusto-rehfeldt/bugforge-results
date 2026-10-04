@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-110 result(s).
+111 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `urllib.parse.urljoin` | bug | [urljoin incorrectly inherits base authority for absolute file URLs with empty authority](urllib.parse-20261003-053113-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `unicodedata.UCD.numeric` | bug | [unicodedata.ucd_3_2_0.numeric returns newer numeric value for U+4EAC](unicodedata-20261003-064954-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `unicodedata.UCD.normalize` | bug | [unicodedata.ucd_3_2_0.normalize incorrectly reorders marks across Unicode 3.2 unassigned characters](unicodedata-20261003-064954-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `unicodedata.UCD.is_normalized` | bug | [unicodedata.ucd_3_2_0.is_normalized incorrectly rejects NFD with a character unassigned in Unicode 3.2](unicodedata-20261003-064954-c1/) | 3.14.6 | not filed |

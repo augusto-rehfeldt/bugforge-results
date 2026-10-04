@@ -1,0 +1,11 @@
+{
+  "folder": "urllib.parse-20261003-053113-c3",
+  "status": "bug",
+  "target": "urllib.parse.urljoin",
+  "title": "urljoin incorrectly inherits base authority for absolute file URLs with empty authority",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "urllib.parse-20261003-053113",
+  "id": "c3",
+  "upstream": null
+}
