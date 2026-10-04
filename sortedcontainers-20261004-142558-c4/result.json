@@ -1,0 +1,11 @@
+{
+  "folder": "sortedcontainers-20261004-142558-c4",
+  "status": "bug",
+  "target": "sortedcontainers.SortedDict.setdefault",
+  "title": "SortedDict.setdefault leaves keys inconsistent when the key function raises",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "sortedcontainers-20261004-142558",
+  "id": "c4",
+  "upstream": null
+}
