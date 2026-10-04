@@ -1,0 +1,11 @@
+{
+  "folder": "json-20261003-051249-c4",
+  "status": "bug",
+  "target": "json.loads",
+  "title": "json.loads ignores explicitly supplied false-valued parse_float callables",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "json-20261003-051249",
+  "id": "c4",
+  "upstream": null
+}

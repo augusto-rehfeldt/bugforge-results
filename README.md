@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-82 result(s).
+83 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `json.loads` | bug | [json.loads ignores explicitly supplied false-valued parse_float callables](json-20261003-051249-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `ipaddress.IPv6Interface.ip` | bug | [ipaddress.IPv6Interface.ip drops the IPv6 scope ID](ipaddress-20261003-050858-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `html.parser.HTMLParser.handle_decl` | bug | [HTMLParser truncates DOCTYPE declarations at '>' inside quoted system identifiers](html.parser-20261003-091556-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `heapq.nsmallest` | bug | [heapq.nsmallest violates sorted equivalence for ordering-equivalent objects with identity equality](heapq-20261003-061723-c4/) | 3.14.6 | not filed |
