@@ -1,0 +1,11 @@
+{
+  "folder": "statistics-20261003-081656-c2",
+  "status": "bug",
+  "target": "statistics.pstdev",
+  "title": "statistics.pstdev overflows for large finite values when given the correct mean",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "statistics-20261003-081656",
+  "id": "c2",
+  "upstream": null
+}

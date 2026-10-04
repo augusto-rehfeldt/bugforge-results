@@ -2,10 +2,11 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication; upstream reports are filed by hand, and a result is linked to its issue once filed.
 
-104 result(s).
+105 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-04 | `statistics.pstdev` | bug | [statistics.pstdev overflows for large finite values when given the correct mean](statistics-20261003-081656-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.median` | bug | [statistics.median overflows for large finite middle values](statistics-20261003-045701-c4/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.correlation` | bug | [statistics.correlation misclassifies tiny nonconstant inputs as constant](statistics-20261003-045701-c3/) | 3.14.6 | not filed |
 | 2026-10-04 | `statistics.linear_regression` | bug | [statistics.linear_regression misclassifies small nonconstant inputs as constant due to underflow](statistics-20261003-045701-c2/) | 3.14.6 | not filed |
