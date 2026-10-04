@@ -2,7 +2,7 @@
 
 Behaviour of Python libraries that breaks their documentation, found by [bugforge](https://github.com/augusto-rehfeldt/bugforge): one language model proposes a documented property, another searches for a failing input, a third writes a minimal standalone reproducer, which is run, and a judge reads the reproducer, the documentation and the project's issue tracker. Every folder holds the reproducer and its output on the Python version named. No person reviewed these before publication. A result is linked to its upstream issue once one is filed, at most one open issue per project.
 
-147 result(s).
+148 result(s).
 
 | Date | Target | Verdict | Title | Python | Upstream |
 | --- | --- | --- | --- | --- | --- |
@@ -50,6 +50,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-04 | `plistlib.load` | bug | [plistlib.load rejects XML dictionary keys when dict_type is collections.UserDict](plistlib-20261003-042133-c2/) | 3.14.6 | [cpython#158734](https://github.com/python/cpython/issues/158734) (closed, 1 comment(s)) |
 | 2026-10-04 | `packaging.specifiers.Specifier.__hash__` | bug | [Specifier string equality violates the equal-hash invariant](packaging.specifiers-20261004-150107-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `operator.iconcat` | bug | [operator.iconcat ignores list subclass __iadd__ override](operator-20261003-044103-c1/) | 3.14.6 | [cpython#158733](https://github.com/python/cpython/issues/158733) (closed, 1 comment(s)) |
+| 2026-10-04 | `more_itertools.running_mean` | bug | [running_mean overflows for two identical large finite floats](more_itertools-20261004-154150-c1/) | 3.14.6 | not filed |
 | 2026-10-04 | `more_itertools.running_median` | bug | [running_median overflows for identical large finite floats](more_itertools-20261004-142224-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `more_itertools.all_unique` | bug | [all_unique misses equal elements with mixed hashability](more_itertools-20261004-020739-c2/) | 3.14.6 | not filed |
 | 2026-10-04 | `markupsafe.EscapeFormatter.format_field` | bug | [EscapeFormatter escapes safe plain-string results from __html_format__](markupsafe-20261004-153443-c2/) | 3.14.6 | not filed |
