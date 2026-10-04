@@ -1,0 +1,11 @@
+{
+  "folder": "html.parser-20261003-091556-c3",
+  "status": "bug",
+  "target": "html.parser.HTMLParser.handle_decl",
+  "title": "HTMLParser truncates DOCTYPE declarations at '>' inside quoted system identifiers",
+  "date": "2026-10-04",
+  "python": "3.14.6",
+  "run": "html.parser-20261003-091556",
+  "id": "c3",
+  "upstream": null
+}
