@@ -62,7 +62,7 @@ Behaviour of Python libraries that breaks their documentation, found by [bugforg
 | 2026-10-03 | `textwrap.TextWrapper.fill` | doc-bug | [Clarify TextWrapper width guarantees when indentation leaves no room for text](textwrap-c3/) | 3.14.6 | not filed |
 | 2026-10-03 | `textwrap.TextWrapper.wrap` | doc-bug | [Clarify TextWrapper width guarantees when indentation consumes the available width](textwrap-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `struct.Struct.iter_unpack` | bug | [struct.Struct.iter_unpack crashes when __buffer__ reinitializes the Struct to a zero-sized format](struct-20261003-232219-c4/) | 3.14.6 | [cpython#158695](https://github.com/python/cpython/issues/158695) (open, 0 comment(s)) |
-| 2026-10-03 | `struct.Struct.pack_into` | bug | [struct.Struct.pack_into with '0p' modifies a byte outside its zero-sized representation](struct-20261003-182950-c2/) | 3.14.6 | not filed |
+| 2026-10-03 | `struct.Struct.pack_into` | bug | [struct.Struct.pack_into with '0p' modifies a byte outside its zero-sized representation](struct-20261003-182950-c2/) | 3.14.6 | [cpython#158762](https://github.com/python/cpython/issues/158762) |
 | 2026-10-03 | `struct.pack_into` | bug | [struct.pack_into corrupts an 's' value when source and destination are the same bytearray](struct-20261003-122508-c3/) | 3.14.6 | [cpython#158761](https://github.com/python/cpython/issues/158761) |
 | 2026-10-03 | `string.capwords` | bug | [string.capwords ignores falsey nonempty str subclasses when joining](string-20261003-020655-c1/) | 3.14.6 | not filed |
 | 2026-10-03 | `statistics.kde` | bug | [statistics.kde logistic CDF overflows for large finite arguments](statistics-c1/) | 3.14.6 | [cpython#158631](https://github.com/python/cpython/issues/158631) (open, 4 comment(s)) |
